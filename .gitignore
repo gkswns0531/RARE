@@ -1,0 +1,9 @@
+outputs/**
+rare_output/**
+**/*.pkl
+**/.ipynb_checkpoints/**
+.DS_Store
+*.log
+__pycache__/**
+*.pyc
+
