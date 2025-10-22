@@ -7,6 +7,7 @@ RARE is a step-by-step framework to generate redundancy-aware RAG evaluation dat
 - Independent step execution (from PDF parsing to evaluation item generation)
 - Intermediate artifacts saved as JSON/PKL for reuse
 - End-to-end cost tracking with model-wise breakdown
+- Built-in retrieval evaluation suite under `evaluation/`
 - Bulk OpenAI Embeddings and threaded LLM calls
 - Retry with exponential backoff for API robustness
 - Progress bar for long-running steps
@@ -34,7 +35,7 @@ export OPENAI_API_KEY="your-api-key"
 
 ### 2. Full Pipeline
 ```bash
-python run_complete_pipeline.py --input ANNUAL_REPORT_NVIDIA_2024.pdf --target-count 10
+python run_complete_pipeline.py --input examples/ANNUAL_REPORT_NVIDIA_2024.pdf --target-count 10
 python run_complete_pipeline.py --input examples/ --target-count 10
 ```
 
@@ -76,6 +77,8 @@ RARE/
 │   └── run_step7_multihop_questions.py
 ├── outputs/                     # Default directory for generated artifacts
 ├── outputs_backup/              # Cached backup outputs for each step
+├── dataset/                     # Final evaluation datasets (JSON)
+├── evaluation/                  # Retrieval evaluation scripts, caches, and results
 ├── examples/                    # Sample PDF inputs
 └── rare_output/                 # Legacy output directory (optional)
 ```
@@ -97,18 +100,18 @@ RARE/
 from rare_core.rare_orchestration_service import run_rare_pipeline
 
 result = run_rare_pipeline(
-    input_path="document.pdf",
+    input_path="examples/ANNUAL_REPORT_NVIDIA_2024.pdf",
     target_count=5,
     model="gpt5_nano",
-    steps=["parsing", "chunking", "atomic_info", "selection", "embedding", "redundancy", "evaluation"],
+    steps=["parsing", "chunking", "atomic_info_extraction", "atomic_info_selection", "embedding_similarity", "redundancy_detection", "data_generation"]
     output_dir="results",
-    max_workers=16,
+    max_workers=1024,
 )
 
 result = run_rare_pipeline(
     steps=["redundancy"],
     output_dir="results",
-    max_workers=16,
+    max_workers=1024,
     top_k_per_document=1,
 )
 
@@ -119,10 +122,25 @@ print(f"Generated questions: {len(result.evaluation_items)}")
 ### 5. Outputs
 ```bash
 # Default output directory: outputs/
-python run_complete_pipeline.py --input document.pdf --target-count 5 --output-dir outputs
+python run_complete_pipeline.py --input  examples/ANNUAL_REPORT_NVIDIA_2024.pdf --target-count 5 --output-dir outputs
 ```
 
-### 6. Examples and Step Scripts
+### 6. Evaluation Module
+```bash
+# Install evaluation dependencies
+pip install -r requirements.txt
+
+# Run baseline evaluation on finance dataset
+python evaluation/run_evaluation.py --models bm25 --input-file ../dataset/finance_eval_dataset.json
+
+# Run helper script for sequential evaluation across models
+cd evaluation
+bash run_all_models.sh
+```
+
+Evaluation outputs are written to `evaluation/results/` and cached embeddings to `evaluation/cache/`. Additional datasets live under `dataset/`.
+
+### 7. Examples and Step Scripts
 See `examples/` for structure (add your own small public-domain PDF).
 
 For step-by-step execution, see `rare_steps/`:
@@ -263,3 +281,61 @@ python run_complete_pipeline.py --steps redundancy --top-k-per-doc 1
   ]
 }
 ```
+
+## RARE Evaluation Results
+
+### Finance
+| Model | Coverage@10 | Top@10 | NDCG@10 | MRR |
+|-------|-------------|--------|---------|-----|
+| BM25 | 59.97 | 36.28 | 48.57 | 36.17 |
+| OpenAI-Large | 67.67 | 42.95 | 56.27 | 42.07 |
+| BGE-M3 (0.56B) | 64.43 | 39.84 | 52.59 | 39.25 |
+| Qwen3 (0.6B) | 67.62 | 43.80 | 54.85 | 40.39 |
+| Qwen3 (4B) | 72.43 | 48.84 | 59.35 | 44.00 |
+| Qwen3 (8B) | 72.92 | 47.44 | 60.35 | 44.78 |
+| Gemma (0.3B) | 40.41 | 20.78 | 30.54 | 21.81 |
+| Jina-v4 (3.75B) | 65.10 | 40.31 | 55.17 | 42.20 |
+| E5-Large (0.56B) | 62.83 | 37.98 | 51.96 | 39.43 |
+| E5-Mistral (7B) | 69.69 | 44.81 | 56.75 | 42.69 |
+
+### Patent
+| Model | Coverage@10 | Top@10 | NDCG@10 | MRR |
+|-------|-------------|--------|---------|-----|
+| BM25 | 76.35 | 55.62 | 63.15 | 48.78 |
+| OpenAI-Large | 81.96 | 61.46 | 66.46 | 49.75 |
+| BGE-M3 (0.56B) | 81.46 | 59.58 | 67.37 | 51.04 |
+| Qwen3 (0.6B) | 81.49 | 60.21 | 68.03 | 51.45 |
+| Qwen3 (4B) | 83.09 | 62.50 | 70.76 | 55.09 |
+| Qwen3 (8B) | 84.05 | 63.12 | 71.38 | 54.59 |
+| Gemma (0.3B) | 59.46 | 36.25 | 43.59 | 30.67 |
+| Jina-v4 (3.75B) | 80.09 | 59.58 | 66.61 | 51.00 |
+| E5-Large (0.56B) | 80.69 | 60.62 | 64.91 | 48.20 |
+| E5-Mistral (7B) | 81.67 | 62.71 | 65.67 | 48.64 |
+
+### Legal
+| Model | Coverage@10 | Top@10 | NDCG@10 | MRR |
+|-------|-------------|--------|---------|-----|
+| BM25 | 49.08 | 27.77 | 40.25 | 29.93 |
+| OpenAI-Large | 61.17 | 37.36 | 48.91 | 35.24 |
+| BGE-M3 (0.56B) | 54.50 | 32.40 | 42.86 | 30.65 |
+| Qwen3 (0.6B) | 60.29 | 35.37 | 46.64 | 33.08 |
+| Qwen3 (4B) | 65.12 | 39.67 | 53.82 | 39.13 |
+| Qwen3 (8B) | 67.16 | 41.49 | 57.08 | 42.51 |
+| Gemma (0.3B) | 20.08 | 8.26 | 16.23 | 7.69 |
+| Jina-v4 (3.75B) | 59.57 | 34.55 | 47.42 | 34.03 |
+| E5-Large (0.56B) | 52.56 | 30.91 | 40.81 | 29.00 |
+| E5-Mistral (7B) | 56.86 | 34.05 | 43.34 | 30.97 |
+
+### Hotpot (Low Redundancy & Low Similarity)
+| Model | Coverage@10 | Top@10 | NDCG@10 | MRR |
+|-------|-------------|--------|---------|-----|
+| BM25 | 64.58 | 44.19 | 61.80 | 48.63 |
+| OpenAI-Large | 92.78 | 86.48 | 92.17 | 70.24 |
+| BGE-M3 (0.56B) | 89.96 | 78.78 | 88.77 | 68.00 |
+| Qwen3 (0.6B) | 93.97 | 89.18 | 92.93 | 70.49 |
+| Qwen3 (4B) | 93.58 | 88.66 | 92.57 | 70.28 |
+| Qwen3 (8B) | 93.58 | 88.66 | 92.57 | 70.28 |
+| Gemma (0.3B) | 61.60 | 41.72 | 56.86 | 45.12 |
+| Jina-v4 (3.75B) | 92.61 | 85.04 | 91.26 | 69.55 |
+| E5-Large (0.56B) | 91.67 | 84.01 | 90.76 | 69.33 |
+| E5-Mistral (7B) | 93.53 | 88.66 | 92.27 | 70.16 |

@@ -7,3 +7,11 @@ rare_output/**
 __pycache__/**
 *.pyc
 
+# Evaluation caches
+evaluation/cache/
+evaluation/*_cache/
+
+# Evaluation results
+evaluation/results/*.json
+evaluation/results/*/*.json
+
