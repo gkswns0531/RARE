@@ -1,4 +1,4 @@
-# RARE — Redundancy-Aware RAG Evaluation Dataset Generator
+# RARE: Redundancy-Aware Retrieval Evaluation Framework for High-Similarity Corpora
 
 RARE is a step-by-step framework to generate redundancy-aware RAG evaluation data from raw PDFs to final JSON outputs.
 
