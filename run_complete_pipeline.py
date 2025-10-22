@@ -107,7 +107,7 @@ def main():
     print(f"Output directory: {args.output_dir}")
     
     # Check API key for steps that need it
-    api_required_steps = ["atomic_info", "redundancy", "evaluation", "embedding"]
+    api_required_steps = ["atomic_info_extraction", "atomic_info_selection", "embedding_similarity", "redundancy_detection", "data_generation"]
     if any(step in args.steps for step in api_required_steps):
         if not os.getenv("OPENAI_API_KEY"):
             print("OPENAI_API_KEY environment variable not set")

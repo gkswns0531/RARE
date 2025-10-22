@@ -167,7 +167,8 @@ class ResultsSaver:
             f.write("-" * 40 + "\n")
             for i, item in enumerate(result.evaluation_items[:5], 1):  # Show first 5
                 f.write(f"\n{i}. Redundancy Level: {item.redundancy_level}\n")
-                f.write(f"   Importance Score: {item.importance_score}\n")
+                importance = getattr(item, "importance_score", "N/A")
+                f.write(f"   Importance Score: {importance}\n")
                 f.write(f"   Question: {item.question}\n")
                 f.write(f"   Answer: {item.target_answer}\n")
                 f.write(f"   Atomic Info: {item.atomic_info[:100]}...\n")
