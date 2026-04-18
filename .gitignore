@@ -1,0 +1,17 @@
+outputs/**
+rare_output/**
+**/*.pkl
+**/.ipynb_checkpoints/**
+.DS_Store
+*.log
+__pycache__/**
+*.pyc
+
+# Evaluation caches
+evaluation/cache/
+evaluation/*_cache/
+
+# Evaluation results
+evaluation/results/*.json
+evaluation/results/*/*.json
+
