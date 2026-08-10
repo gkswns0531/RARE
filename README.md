@@ -148,6 +148,26 @@ bash run_all_models.sh
 
 Evaluation outputs are written to `evaluation/results/` and cached embeddings to `evaluation/cache/`. Additional datasets live under `dataset/`.
 
+Each file under `dataset/` holds `metadata`, `queries`, and `corpus`. Every query carries a gold `answer` next to its gold chunks:
+
+```json
+{
+  "query_id": "query_001",
+  "question": "What is the federal legislature of the country where the Goetheanum is located?",
+  "gold_chunk_ids": [
+    "Goetheanum.txt_page001_chunk001",
+    "Federal_Assembly_(Switzerland).txt_page001_chunk001"
+  ],
+  "gold_chunk_groups": [
+    ["Goetheanum.txt_page001_chunk001"],
+    ["Federal_Assembly_(Switzerland).txt_page001_chunk001"]
+  ],
+  "answer": "The Federal Assembly"
+}
+```
+
+Retrieval evaluation uses only the gold chunk fields; `answer` is supplied for downstream answer-generation experiments.
+
 ### 7. Examples and Step Scripts
 See `examples/` for structure (add your own small public-domain PDF).
 
