@@ -7,7 +7,10 @@
     "valid_samples": 688,
     "valid_sample_ratio": 1.0,
     "dataset_type": "main",
-    "use_original_question": false
+    "use_original_question": false,
+    "has_answer": true,
+    "answer_matched": 688,
+    "answer_missing": 0
   },
   "queries": [
     {
@@ -24,7 +27,8 @@
         [
           "Federal_Assembly_(Switzerland).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The Federal Assembly"
     },
     {
       "query_id": "query_002",
@@ -40,7 +44,8 @@
         [
           "Glorious_Revolution.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "361 years after deposition"
     },
     {
       "query_id": "query_003",
@@ -56,7 +61,8 @@
         [
           "Frankfort,_Kentucky.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Frankfort"
     },
     {
       "query_id": "query_004",
@@ -72,7 +78,8 @@
         [
           "Flatbush_Zombies.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "2,629,150"
     },
     {
       "query_id": "query_005",
@@ -88,7 +95,8 @@
         [
           "Casablanca_(film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "During the manufacturing run."
     },
     {
       "query_id": "query_006",
@@ -104,7 +112,8 @@
         [
           "Fifteen_(song).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Taylor Swift; 1989 is named after her birth year"
     },
     {
       "query_id": "query_007",
@@ -120,7 +129,8 @@
         [
           "2012_Summer_Olympics.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Berlin"
     },
     {
       "query_id": "query_008",
@@ -136,7 +146,8 @@
         [
           "Ascension_Island.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "7°56' South of the Equator."
     },
     {
       "query_id": "query_009",
@@ -152,7 +163,8 @@
         [
           "David_Rockefeller.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "June 12"
     },
     {
       "query_id": "query_010",
@@ -168,7 +180,8 @@
         [
           "Carlos_Newton.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Carlos Newton"
     },
     {
       "query_id": "query_011",
@@ -184,7 +197,8 @@
         [
           "Bear_Grylls.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dean Martin"
     },
     {
       "query_id": "query_012",
@@ -200,7 +214,8 @@
         [
           "Charkhi_Dadri_mid-air_collision.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "56 years"
     },
     {
       "query_id": "query_013",
@@ -216,7 +231,8 @@
         [
           "Bambi.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1942"
     },
     {
       "query_id": "query_014",
@@ -232,7 +248,8 @@
         [
           "Elvis'_Christmas_Album.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Yes, in 1957"
     },
     {
       "query_id": "query_015",
@@ -248,7 +265,8 @@
         [
           "All_the_Light_We_Cannot_See.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Barack Obama"
     },
     {
       "query_id": "query_016",
@@ -264,7 +282,8 @@
         [
           "1812_Overture.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The Bridal Chorus was created earlier (1850) than the 1812 Overture (1880)."
     },
     {
       "query_id": "query_017",
@@ -280,7 +299,8 @@
         [
           "Glomar_Challenger.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "10 years"
     },
     {
       "query_id": "query_018",
@@ -296,7 +316,8 @@
         [
           "Ben_Stein.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Yes, they share the same month and day (November 25)."
     },
     {
       "query_id": "query_019",
@@ -312,7 +333,8 @@
         [
           "2017–18_Philadelphia_76ers_season.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "39 years"
     },
     {
       "query_id": "query_020",
@@ -328,7 +350,8 @@
         [
           "Britney_Spears_Live_from_Las_Vegas.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "26 years old"
     },
     {
       "query_id": "query_021",
@@ -344,7 +367,8 @@
         [
           "Algeria_at_the_FIFA_World_Cup.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Deutsche"
     },
     {
       "query_id": "query_022",
@@ -360,7 +384,8 @@
         [
           "2010–11_Copa_del_Rey.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "25 editions"
     },
     {
       "query_id": "query_023",
@@ -376,7 +401,8 @@
         [
           "Godiva_Chocolatier.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Season 3 premiere (April 10, 2007) happened earlier than Yıldız Holding’s purchase (November 20, 2007)."
     },
     {
       "query_id": "query_024",
@@ -392,7 +418,8 @@
         [
           "Hail!_Hail!_Rock_'n'_Roll.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Hail! Hail! Rock 'n' Roll, Batman (1989)"
     },
     {
       "query_id": "query_025",
@@ -408,7 +435,8 @@
         [
           "Gameel_Al-Batouti.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "217 people were killed."
     },
     {
       "query_id": "query_026",
@@ -424,7 +452,8 @@
         [
           "2012_Summer_Olympics.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "London"
     },
     {
       "query_id": "query_027",
@@ -440,7 +469,8 @@
         [
           "Edward_Albee.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "6"
     },
     {
       "query_id": "query_028",
@@ -456,7 +486,8 @@
         [
           "Ferrari_F430.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "19 years old."
     },
     {
       "query_id": "query_029",
@@ -472,7 +503,8 @@
         [
           "Bologna.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "città metropolitana"
     },
     {
       "query_id": "query_030",
@@ -488,7 +520,8 @@
         [
           "Economy_of_Norway.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "A developed mixed economy with state ownership in strategic areas."
     },
     {
       "query_id": "query_031",
@@ -504,7 +537,8 @@
         [
           "Ashanti_(singer).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Ashanti"
     },
     {
       "query_id": "query_032",
@@ -520,7 +554,8 @@
         [
           "Ella_Fitzgerald.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "9 years and 20 days"
     },
     {
       "query_id": "query_033",
@@ -536,7 +571,8 @@
         [
           "Alexander_Lippisch.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "20 years"
     },
     {
       "query_id": "query_034",
@@ -552,7 +588,8 @@
         [
           "Grapico.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Cuba Libre is caffeinated; Grapico is caffeine-free; they differ by caffeine content."
     },
     {
       "query_id": "query_035",
@@ -568,7 +605,8 @@
         [
           "Galleria_Vittorio_Emanuele_II.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Yes, it occurred while the Galleria was under construction."
     },
     {
       "query_id": "query_036",
@@ -584,7 +622,8 @@
         [
           "Chris_Columbus_(filmmaker).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "36 years"
     },
     {
       "query_id": "query_037",
@@ -600,7 +639,8 @@
         [
           "Camel_Up.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dancing with the Stars premiere occurred first"
     },
     {
       "query_id": "query_038",
@@ -616,7 +656,8 @@
         [
           "10_Hudson_Yards.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "19 years after"
     },
     {
       "query_id": "query_039",
@@ -632,7 +673,8 @@
         [
           "2016_Cannes_Film_Festival.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "May"
     },
     {
       "query_id": "query_040",
@@ -648,7 +690,8 @@
         [
           "Betsy_Ross_Bridge.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "39 years"
     },
     {
       "query_id": "query_041",
@@ -664,7 +707,8 @@
         [
           "2017_Jeux_de_la_Francophonie.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "10 years"
     },
     {
       "query_id": "query_042",
@@ -680,7 +724,8 @@
         [
           "40_Days_and_40_Nights.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "San Francisco"
     },
     {
       "query_id": "query_043",
@@ -696,7 +741,8 @@
         [
           "Agatha_Christie.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Florence Nightingale"
     },
     {
       "query_id": "query_044",
@@ -712,7 +758,8 @@
         [
           "Dusty_Springfield.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dean Martin was born earlier (1917) than Dusty Springfield (1939)."
     },
     {
       "query_id": "query_045",
@@ -728,7 +775,8 @@
         [
           "Atlas_Shrugged_(film_series).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "7/3 years (approximately 2.33 years)"
     },
     {
       "query_id": "query_046",
@@ -744,7 +792,8 @@
         [
           "Bloody_Mary_(cocktail).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bloody Mary: vodka; Fish House Punch: peach brandy"
     },
     {
       "query_id": "query_047",
@@ -760,7 +809,8 @@
         [
           "Bishop_Gorman_High_School.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1954"
     },
     {
       "query_id": "query_048",
@@ -776,7 +826,8 @@
         [
           "Boston_Bruins.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Manchester United"
     },
     {
       "query_id": "query_049",
@@ -792,7 +843,8 @@
         [
           "Felipe_Calderón.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "2009, 2010, 2011, and 2012"
     },
     {
       "query_id": "query_050",
@@ -808,7 +860,8 @@
         [
           "Columbia_College,_Columbia_University.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Columbia College"
     },
     {
       "query_id": "query_051",
@@ -824,7 +877,8 @@
         [
           "Argentine_National_Anthem.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Vicente López y Planes"
     },
     {
       "query_id": "query_052",
@@ -840,7 +894,8 @@
         [
           "Carlos_Hasselbaink.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Eric Bana"
     },
     {
       "query_id": "query_053",
@@ -856,7 +911,8 @@
         [
           "Backspacer.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Backspacer's recording period (February–April 2009) occurred before George Kokinis’s firing (November 2, 2009)."
     },
     {
       "query_id": "query_054",
@@ -872,7 +928,8 @@
         [
           "Emil_Wolf.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Emil Wolf is older (born July 30, 1922) compared to Emilia Fox (born July 31, 1974)."
     },
     {
       "query_id": "query_055",
@@ -889,7 +946,8 @@
         [
           "Fucking,_Austria.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "33 km north of Salzburg."
     },
     {
       "query_id": "query_056",
@@ -905,7 +963,8 @@
         [
           "Ferrari_F430.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The Ferrari 458 unveiling occurred later."
     },
     {
       "query_id": "query_057",
@@ -921,7 +980,8 @@
         [
           "Albert_Luce.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "4 days after Ervin Randle's birth."
     },
     {
       "query_id": "query_058",
@@ -937,7 +997,8 @@
         [
           "Dave_Pirner.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dave Pirner is older by 11 full years."
     },
     {
       "query_id": "query_059",
@@ -953,7 +1014,8 @@
         [
           "Hamid_Karzai.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "2 days apart"
     },
     {
       "query_id": "query_060",
@@ -969,7 +1031,8 @@
         [
           "2014_Trans-Am_Series.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "2 years after"
     },
     {
       "query_id": "query_061",
@@ -985,7 +1048,8 @@
         [
           "Daniel_Boone_(1964_TV_series).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "6 years old."
     },
     {
       "query_id": "query_062",
@@ -1001,7 +1065,8 @@
         [
           "Berlin_Marathon.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "18 years"
     },
     {
       "query_id": "query_063",
@@ -1017,7 +1082,8 @@
         [
           "All_Souls_College,_Oxford.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "University of Oxford, England"
     },
     {
       "query_id": "query_064",
@@ -1033,7 +1099,8 @@
         [
           "Giorgio_Pini.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "città metropolitana"
     },
     {
       "query_id": "query_065",
@@ -1049,7 +1116,8 @@
         [
           "Airbus_A380.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Ronaldinho"
     },
     {
       "query_id": "query_066",
@@ -1065,7 +1133,8 @@
         [
           "Christina_Applegate.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Alice Hoffman in 2002."
     },
     {
       "query_id": "query_067",
@@ -1081,7 +1150,8 @@
         [
           "Berlin_Marathon.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1899"
     },
     {
       "query_id": "query_068",
@@ -1098,7 +1168,8 @@
         [
           "Gin_Drinkers_Line.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The Gin Drinkers Line (also known as the Gin Drinkers' Line)."
     },
     {
       "query_id": "query_069",
@@ -1114,7 +1185,8 @@
         [
           "Christopher_Pyne.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Christopher Pyne"
     },
     {
       "query_id": "query_070",
@@ -1130,7 +1202,8 @@
         [
           "Bobby_Keys.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bobby Keys"
     },
     {
       "query_id": "query_071",
@@ -1146,7 +1219,8 @@
         [
           "Backstreet_Boys.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "10 years before"
     },
     {
       "query_id": "query_072",
@@ -1162,7 +1236,8 @@
         [
           "Chilopsis.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "117"
     },
     {
       "query_id": "query_073",
@@ -1178,7 +1253,8 @@
         [
           "Boeing_707.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The Boeing 707 production began earlier (1958) than the Chrysler F platform use (1976)."
     },
     {
       "query_id": "query_074",
@@ -1194,7 +1270,8 @@
         [
           "Elia_Kazan.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "77 years (Dane DeHaan: 1986; Elia Kazan: 1909)."
     },
     {
       "query_id": "query_075",
@@ -1210,7 +1287,8 @@
         [
           "2006_San_Marino_Grand_Prix.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Italy"
     },
     {
       "query_id": "query_076",
@@ -1226,7 +1304,8 @@
         [
           "Bart_the_Fink.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Slightly more than a decade"
     },
     {
       "query_id": "query_077",
@@ -1242,7 +1321,8 @@
         [
           "Frank_Wentz.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1974"
     },
     {
       "query_id": "query_078",
@@ -1258,7 +1338,8 @@
         [
           "Eric_IV_of_Denmark.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1) Eric IV of Denmark’s birth (1216), 2) Giotto di Bondone’s birth (1270), 3) Giotto di Bondone’s death (1337)"
     },
     {
       "query_id": "query_079",
@@ -1274,7 +1355,8 @@
         [
           "1998–99_Los_Angeles_Lakers_season.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Yes; Buddy was alive during the 1998–99 Lakers season (Buddy lived 1997–2002; Kobe was second in scoring in 1998–99)."
     },
     {
       "query_id": "query_080",
@@ -1290,7 +1372,8 @@
         [
           "2012_Summer_Olympics.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "6"
     },
     {
       "query_id": "query_081",
@@ -1306,7 +1389,8 @@
         [
           "Frederik,_Crown_Prince_of_Denmark.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The festival ended before Frederik's birthday."
     },
     {
       "query_id": "query_082",
@@ -1322,7 +1406,8 @@
         [
           "George_Clooney.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bob Saget"
     },
     {
       "query_id": "query_083",
@@ -1340,7 +1425,8 @@
           "Congleton_(UK_Parliament_constituency).txt_page001_chunk001",
           "Fiona_Bruce_(politician).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Fiona Bruce"
     },
     {
       "query_id": "query_084",
@@ -1356,7 +1442,8 @@
         [
           "FK_Austria_Wien.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Yes"
     },
     {
       "query_id": "query_085",
@@ -1372,7 +1459,8 @@
         [
           "Grand_Forks_International_Airport.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Grand Canyon National Park Airport has IATA code GCN and FAA LID GCN. Grand Forks International Airport has IATA code GFK and FAA LID GFK."
     },
     {
       "query_id": "query_086",
@@ -1388,7 +1476,8 @@
         [
           "Gwen_Stefani.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Gwen Stefani is older."
     },
     {
       "query_id": "query_087",
@@ -1404,7 +1493,8 @@
         [
           "Buddy_Hield.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "40 years"
     },
     {
       "query_id": "query_088",
@@ -1420,7 +1510,8 @@
         [
           "Barack_Obama.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "TSN became the exclusive broadcaster first, in 2008, before Barack Obama began his presidency in 2009."
     },
     {
       "query_id": "query_089",
@@ -1436,7 +1527,8 @@
         [
           "Canobie_Lake.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "394.5 miles"
     },
     {
       "query_id": "query_090",
@@ -1452,7 +1544,8 @@
         [
           "Bridgewater_Canal.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The Bridgewater Canal opening occurred first."
     },
     {
       "query_id": "query_091",
@@ -1468,7 +1561,8 @@
         [
           "Colgate_Raiders_women's_ice_hockey.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Hamilton Township"
     },
     {
       "query_id": "query_092",
@@ -1484,7 +1578,8 @@
         [
           "Aladdin_(2019_film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Aladdin (2019) remakes an earlier animated film into live-action; Blue Dragon adapts a video game series into anime."
     },
     {
       "query_id": "query_093",
@@ -1500,7 +1595,8 @@
         [
           "David_Coverdale.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The beginning of Coverdale's stint in 1973 came first."
     },
     {
       "query_id": "query_094",
@@ -1516,7 +1612,8 @@
         [
           "Albert_Ball.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Grand Duke Konstantin Konstantinovich of Russia."
     },
     {
       "query_id": "query_095",
@@ -1532,7 +1629,8 @@
         [
           "Damian_Green.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "22 years"
     },
     {
       "query_id": "query_096",
@@ -1548,7 +1646,8 @@
         [
           "Elena_Rostropovich.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Hamid Karzai."
     },
     {
       "query_id": "query_097",
@@ -1564,7 +1663,8 @@
         [
           "George_Clooney.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "George Clooney is older."
     },
     {
       "query_id": "query_098",
@@ -1580,7 +1680,8 @@
         [
           "Goshen,_New_Hampshire.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Forest Hill, Texas had the larger 2010 population (12,355) compared with Goshen, New Hampshire (810)."
     },
     {
       "query_id": "query_099",
@@ -1596,7 +1697,8 @@
         [
           "19_Kids_and_Counting.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The cancellation of 19 Kids and Counting occurred in 2015, which happened before Blood on the Dance Floor's disbanding announcement in 2016."
     },
     {
       "query_id": "query_100",
@@ -1612,7 +1714,8 @@
         [
           "Halestorm.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "No"
     },
     {
       "query_id": "query_101",
@@ -1628,7 +1731,8 @@
         [
           "Bambi.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Love Story was directed by Arthur Hiller; Bambi was directed by David Hand; thus the later film is Love Story (1970)."
     },
     {
       "query_id": "query_102",
@@ -1644,7 +1748,8 @@
         [
           "Baltasar_Kormákur.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "39"
     },
     {
       "query_id": "query_103",
@@ -1660,7 +1765,8 @@
         [
           "Christopher_Nolan.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Brad Bird"
     },
     {
       "query_id": "query_104",
@@ -1676,7 +1782,8 @@
         [
           "Carlos_Sainz.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "No"
     },
     {
       "query_id": "query_105",
@@ -1692,7 +1799,8 @@
         [
           "Awake_(film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Awake (2007) was released earlier than Brooklyn (2015)."
     },
     {
       "query_id": "query_106",
@@ -1710,7 +1818,8 @@
           "Creature_from_the_Black_Lagoon.txt_page001_chunk001",
           "Eucritta.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "12 years"
     },
     {
       "query_id": "query_107",
@@ -1726,7 +1835,8 @@
         [
           "Callista_Gingrich.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "March 4"
     },
     {
       "query_id": "query_108",
@@ -1742,7 +1852,8 @@
         [
           "Gunnersbury_Park.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "102 years."
     },
     {
       "query_id": "query_109",
@@ -1758,7 +1869,8 @@
         [
           "Donald_Trump_Jr..txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "34 years and 13 days."
     },
     {
       "query_id": "query_110",
@@ -1774,7 +1886,8 @@
         [
           "Big_Bad_Wolf_(roller_coaster).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "4 years"
     },
     {
       "query_id": "query_111",
@@ -1790,7 +1903,8 @@
         [
           "Arthur_Conan_Doyle.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "37 years (about 6 months) after Doyle’s birth."
     },
     {
       "query_id": "query_112",
@@ -1806,7 +1920,8 @@
         [
           "Dial_M_for_Murder.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bambi"
     },
     {
       "query_id": "query_113",
@@ -1822,7 +1937,8 @@
         [
           "Ain_Timguenai.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "48,949"
     },
     {
       "query_id": "query_114",
@@ -1838,7 +1954,8 @@
         [
           "Creem.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Start of Carry On (1958) → Creem’s first publication (1969) → End of Carry On (1992)"
     },
     {
       "query_id": "query_115",
@@ -1854,7 +1971,8 @@
         [
           "45th_Infantry_Division_(United_States).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "23 years"
     },
     {
       "query_id": "query_116",
@@ -1870,7 +1988,8 @@
         [
           "Grounded_Vindaloop.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Grounded Vindaloop"
     },
     {
       "query_id": "query_117",
@@ -1886,7 +2005,8 @@
         [
           "FIA_GT1_World_Championship.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "2010"
     },
     {
       "query_id": "query_118",
@@ -1902,7 +2022,8 @@
         [
           "Doc_Holliday.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "140 years"
     },
     {
       "query_id": "query_119",
@@ -1918,7 +2039,8 @@
         [
           "Baseball_(TV_series).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "22 years"
     },
     {
       "query_id": "query_120",
@@ -1934,7 +2056,8 @@
         [
           "Erie_Railroad_Co._v._Tompkins.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "75 years"
     },
     {
       "query_id": "query_121",
@@ -1950,7 +2073,8 @@
         [
           "Al_Capone.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Chicago Cubs"
     },
     {
       "query_id": "query_122",
@@ -1966,7 +2090,8 @@
         [
           "Cynthia_Mort.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "June 18"
     },
     {
       "query_id": "query_123",
@@ -1984,7 +2109,8 @@
           "Anti_(album).txt_page001_chunk001",
           "Desperado_(Rihanna_song).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "3"
     },
     {
       "query_id": "query_124",
@@ -2000,7 +2126,8 @@
         [
           "Adam_Silver.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dolly Parton is older."
     },
     {
       "query_id": "query_125",
@@ -2016,7 +2143,8 @@
         [
           "Christopher_Amott.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "211 years"
     },
     {
       "query_id": "query_126",
@@ -2032,7 +2160,8 @@
         [
           "Edith_Walks.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "2017"
     },
     {
       "query_id": "query_127",
@@ -2048,7 +2177,8 @@
         [
           "Bigelow_Laboratory_for_Ocean_Sciences.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "43 years"
     },
     {
       "query_id": "query_128",
@@ -2064,7 +2194,8 @@
         [
           "Albany_High_School_(New_York).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "180 years after the Glorious Revolution (Albany High School opened in 1868, Glorious Revolution in 1688)."
     },
     {
       "query_id": "query_129",
@@ -2080,7 +2211,8 @@
         [
           "Assassination_of_William_McKinley.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "64 years, 4 months, and 25 days."
     },
     {
       "query_id": "query_130",
@@ -2098,7 +2230,8 @@
         [
           "Audioslave.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Los Angeles"
     },
     {
       "query_id": "query_131",
@@ -2114,7 +2247,8 @@
         [
           "Aria_Resort_and_Casino.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "3,876,072 square feet"
     },
     {
       "query_id": "query_132",
@@ -2130,7 +2264,8 @@
         [
           "Birks_Group.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "jewellery"
     },
     {
       "query_id": "query_133",
@@ -2146,7 +2281,8 @@
         [
           "Bridal_Chorus.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "100 years"
     },
     {
       "query_id": "query_134",
@@ -2163,7 +2299,8 @@
           "Band-e-Amir_Dragons.txt_page001_chunk001",
           "Band-e_Amir_National_Park.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Band-e-Amir"
     },
     {
       "query_id": "query_135",
@@ -2179,7 +2316,8 @@
         [
           "Athletics_Stadium.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Drillers Stadium"
     },
     {
       "query_id": "query_136",
@@ -2195,7 +2333,8 @@
         [
           "Bent_Hamer.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Giuseppe Tornatore on May 27, 2016."
     },
     {
       "query_id": "query_137",
@@ -2211,7 +2350,8 @@
         [
           "Cliburn_railway_station.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "83 years"
     },
     {
       "query_id": "query_138",
@@ -2227,7 +2367,8 @@
         [
           "Gualeguaychú,_Entre_Ríos.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "No"
     },
     {
       "query_id": "query_139",
@@ -2243,7 +2384,8 @@
         [
           "Bridge_of_Spies_(film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "12 years"
     },
     {
       "query_id": "query_140",
@@ -2259,7 +2401,8 @@
         [
           "2003_NHL_Entry_Draft.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Hollywood Burbank Airport and Bridgestone Arena"
     },
     {
       "query_id": "query_141",
@@ -2275,7 +2418,8 @@
         [
           "Blue_(Double_album).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "doo-blay"
     },
     {
       "query_id": "query_142",
@@ -2293,7 +2437,8 @@
         [
           "Graham_Hill.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The 1968 Belgian Grand Prix occurred first."
     },
     {
       "query_id": "query_143",
@@ -2311,7 +2456,8 @@
           "Edvard_Grieg.txt_page001_chunk001",
           "Grieg_(crater).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "37 years old"
     },
     {
       "query_id": "query_144",
@@ -2327,7 +2473,8 @@
         [
           "Andy_Warhol.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "20 years"
     },
     {
       "query_id": "query_145",
@@ -2343,7 +2490,8 @@
         [
           "A5117_road.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Cheshire"
     },
     {
       "query_id": "query_146",
@@ -2359,7 +2507,8 @@
         [
           "Arsenio_Hall.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1994"
     },
     {
       "query_id": "query_147",
@@ -2375,7 +2524,8 @@
         [
           "Counting_On.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Rai 2"
     },
     {
       "query_id": "query_148",
@@ -2391,7 +2541,8 @@
         [
           "Bill_Pullman.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "36 years"
     },
     {
       "query_id": "query_149",
@@ -2407,7 +2558,8 @@
         [
           "Ashley_Tisdale.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Chiwetel Ejiofor"
     },
     {
       "query_id": "query_150",
@@ -2423,7 +2575,8 @@
         [
           "Daron_Malakian.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Daniel Tosh is older."
     },
     {
       "query_id": "query_151",
@@ -2439,7 +2592,8 @@
         [
           "1959_William_&amp;_Mary_Indians_football_team.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "September 26"
     },
     {
       "query_id": "query_152",
@@ -2455,7 +2609,8 @@
         [
           "Alan_Turing.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "5 (the fifth staging)"
     },
     {
       "query_id": "query_153",
@@ -2471,7 +2626,8 @@
         [
           "1936_Summer_Olympics.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1936 Summer Olympics"
     },
     {
       "query_id": "query_154",
@@ -2487,7 +2643,8 @@
         [
           "Euryanthe.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "77 years and 3 months"
     },
     {
       "query_id": "query_155",
@@ -2503,7 +2660,8 @@
         [
           "Friedrich_Dürrenmatt.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Akira Kurosawa"
     },
     {
       "query_id": "query_156",
@@ -2519,7 +2677,8 @@
         [
           "Charles_Fort.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Yes. Charles Fort was alive when James A. Garfield died (Fort was born in 1874 and Garfield died in 1881)."
     },
     {
       "query_id": "query_157",
@@ -2535,7 +2694,8 @@
         [
           "Giuseppe_Verdi.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "52 years"
     },
     {
       "query_id": "query_158",
@@ -2553,7 +2713,8 @@
           "2003_Cannes_Film_Festival.txt_page001_chunk001",
           "Elephant_(2003_film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Album artist: The White Stripes; Other work's director: Gus Van Sant."
     },
     {
       "query_id": "query_159",
@@ -2569,7 +2730,8 @@
         [
           "Gillian_Anderson.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "20 years"
     },
     {
       "query_id": "query_160",
@@ -2585,7 +2747,8 @@
         [
           "Hamlet_(opera).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "100 years"
     },
     {
       "query_id": "query_161",
@@ -2601,7 +2764,8 @@
         [
           "2016_Cannes_Film_Festival.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Barack Obama"
     },
     {
       "query_id": "query_162",
@@ -2617,7 +2781,8 @@
         [
           "Badfinger.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "21 years"
     },
     {
       "query_id": "query_163",
@@ -2633,7 +2798,8 @@
         [
           "Akira_Kurosawa.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "58 years"
     },
     {
       "query_id": "query_164",
@@ -2649,7 +2815,8 @@
         [
           "Forest_Hill,_Texas.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "31,358"
     },
     {
       "query_id": "query_165",
@@ -2665,7 +2832,8 @@
         [
           "Adele.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "16 years"
     },
     {
       "query_id": "query_166",
@@ -2681,7 +2849,8 @@
         [
           "Dave_Whelan.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Wigan Athletic"
     },
     {
       "query_id": "query_167",
@@ -2697,7 +2866,8 @@
         [
           "Boxing_at_the_2012_Summer_Olympics.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "35 years old"
     },
     {
       "query_id": "query_168",
@@ -2713,7 +2883,8 @@
         [
           "Apollo_Theater.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "13 years"
     },
     {
       "query_id": "query_169",
@@ -2729,7 +2900,8 @@
         [
           "Antonio_Campos_(director).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "London"
     },
     {
       "query_id": "query_170",
@@ -2745,7 +2917,8 @@
         [
           "Arsenio_Hall.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1989"
     },
     {
       "query_id": "query_171",
@@ -2761,7 +2934,8 @@
         [
           "Australia_2022_FIFA_World_Cup_bid.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Brazil hosted the 2014 FIFA World Cup; Australia withdrew its bid for the 2018 FIFA World Cup."
     },
     {
       "query_id": "query_172",
@@ -2777,7 +2951,8 @@
         [
           "Dancing_with_the_Stars_(U.S._TV_series).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "10 years"
     },
     {
       "query_id": "query_173",
@@ -2793,7 +2968,8 @@
         [
           "Baseball_Bugs.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "A Christmas Carol"
     },
     {
       "query_id": "query_174",
@@ -2809,7 +2985,8 @@
         [
           "Falz.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Cronos and Falz"
     },
     {
       "query_id": "query_175",
@@ -2825,7 +3002,8 @@
         [
           "Dancing_with_the_Stars_(U.S._TV_series).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "18 years"
     },
     {
       "query_id": "query_176",
@@ -2845,7 +3023,8 @@
         [
           "Galleria_Vittorio_Emanuele_II.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Godey's Lady's Book final issue in 1878 is closer to the end of the Victorian era than the Galleria Vittorio Emanuele II’s completion in 1877."
     },
     {
       "query_id": "query_177",
@@ -2865,7 +3044,8 @@
         [
           "Christopher_Nolan.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bo Welch"
     },
     {
       "query_id": "query_178",
@@ -2885,7 +3065,8 @@
         [
           "Battle_of_Antietam.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Gibbons v. Ogden (1824)"
     },
     {
       "query_id": "query_179",
@@ -2905,7 +3086,8 @@
         [
           "2012_Summer_Olympics.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Berlin Marathon and Bigelow Laboratory for Ocean Sciences both started in 1974; the London Summer Olympics was held in 2012, which is 38 years later."
     },
     {
       "query_id": "query_180",
@@ -2925,7 +3107,8 @@
         [
           "David_Bowie.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "David Bowie, Adam Silver, Emma Bunton"
     },
     {
       "query_id": "query_181",
@@ -2945,7 +3128,8 @@
         [
           "Eddie_Collins.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Henry Louis Mencken"
     },
     {
       "query_id": "query_182",
@@ -2967,7 +3151,8 @@
           "Battle_of_Hong_Kong.txt_page001_chunk001",
           "Gin_Drinkers_Line.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1) 1812 Overture composition (1880), 2) Florence Nightingale’s death (1910), 3) Start of the Battle of Hong Kong (1941)."
     },
     {
       "query_id": "query_183",
@@ -2987,7 +3172,8 @@
         [
           "Charlize_Theron_filmography.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Monster (2003) first, then Brokeback Mountain (2005), and Amy (2015)."
     },
     {
       "query_id": "query_184",
@@ -3007,7 +3193,8 @@
         [
           "Chiang_Kai-shek.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Chiang Kai-shek"
     },
     {
       "query_id": "query_185",
@@ -3029,7 +3216,8 @@
         [
           "Adele.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "6"
     },
     {
       "query_id": "query_186",
@@ -3049,7 +3237,8 @@
         [
           "George_Clooney.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Emma Bull"
     },
     {
       "query_id": "query_187",
@@ -3069,7 +3258,8 @@
         [
           "Batman_(1989_film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1989: Batman; 1991: Doc Hollywood; 2001: The Lord of the Rings start (Elijah Wood Frodo)."
     },
     {
       "query_id": "query_188",
@@ -3089,7 +3279,8 @@
         [
           "Freakonomics_(film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1967."
     },
     {
       "query_id": "query_189",
@@ -3109,7 +3300,8 @@
         [
           "Briana_Corrigan.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Briana Corrigan"
     },
     {
       "query_id": "query_190",
@@ -3129,7 +3321,8 @@
         [
           "Crash_(card_game).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "11 (equals the Crash target points of 11)."
     },
     {
       "query_id": "query_191",
@@ -3149,7 +3342,8 @@
         [
           "Bedknobs_and_Broomsticks.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1938 (A Christmas Carol), 1965 (Chimes at Midnight), 1971 (Bedknobs and Broomsticks)"
     },
     {
       "query_id": "query_192",
@@ -3169,7 +3363,8 @@
         [
           "Dial_M_for_Murder.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dial M for Murder"
     },
     {
       "query_id": "query_193",
@@ -3189,7 +3384,8 @@
         [
           "Bart_Conner.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Anatoly Kashirov"
     },
     {
       "query_id": "query_194",
@@ -3209,7 +3405,8 @@
         [
           "Dean_Windass.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1942"
     },
     {
       "query_id": "query_195",
@@ -3229,7 +3426,8 @@
         [
           "Gene_Hackman.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "George Clooney"
     },
     {
       "query_id": "query_196",
@@ -3249,7 +3447,8 @@
         [
           "Eugene_O'Neill.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "H. L. Mencken, Eugene O'Neill, Christopher Buckley"
     },
     {
       "query_id": "query_197",
@@ -3269,7 +3468,8 @@
         [
           "Cosmopolitan_of_Las_Vegas.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "5 years after the A380’s first flight; 128 years after the Galleria was completed."
     },
     {
       "query_id": "query_198",
@@ -3289,7 +3489,8 @@
         [
           "Baghdad_ER.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Baghdad ER, Adele’s 19, Alpha and Omega (first film)"
     },
     {
       "query_id": "query_199",
@@ -3309,7 +3510,8 @@
         [
           "Geir_Hansteen_Jörgensen.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Geir Hansteen Jörgensen"
     },
     {
       "query_id": "query_200",
@@ -3329,7 +3531,8 @@
         [
           "Donovan_McNabb.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Caroline Wozniacki"
     },
     {
       "query_id": "query_201",
@@ -3349,7 +3552,8 @@
         [
           "Doctor_Stranger.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Boys Over Flowers premiere (2009) → Start of Ashley Benson on Pretty Little Liars (2010) → Doctor Stranger premiere (2014)"
     },
     {
       "query_id": "query_202",
@@ -3369,7 +3573,8 @@
         [
           "George_Clooney.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "George Clooney"
     },
     {
       "query_id": "query_203",
@@ -3389,7 +3594,8 @@
         [
           "Chelsea_Handler.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Chelsea Handler"
     },
     {
       "query_id": "query_204",
@@ -3409,7 +3615,8 @@
         [
           "All_Tomorrow's_Parties_(festival).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dangerous: 16 years after founding; Chris McKay’s feature film directorial debut: 16 years after founding."
     },
     {
       "query_id": "query_205",
@@ -3429,7 +3636,8 @@
         [
           "Donald_O'Connor.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Ed Wood: 21 years old; Donald O’Connor: 20 years old."
     },
     {
       "query_id": "query_206",
@@ -3449,7 +3657,8 @@
         [
           "Airbus_A380.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Airbus A380’s first flight"
     },
     {
       "query_id": "query_207",
@@ -3469,7 +3678,8 @@
         [
           "Bon_Jovi.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1"
     },
     {
       "query_id": "query_208",
@@ -3489,7 +3699,8 @@
         [
           "Bridge_of_Spies_(film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bridge of Spies; 37 years"
     },
     {
       "query_id": "query_209",
@@ -3511,7 +3722,8 @@
         [
           "Coraline.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Farda Amiga foaling (1999) -> Coraline publication (2002) -> Adam Silver succession (2014)."
     },
     {
       "query_id": "query_210",
@@ -3531,7 +3743,8 @@
         [
           "Bambi.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "A Doll's House (1922), Bambi (1942), Bedknobs and Broomsticks (1971); gaps: 20 years between A Doll's House and Bambi, 29 years between Bambi and Bedknobs and Broomsticks."
     },
     {
       "query_id": "query_211",
@@ -3551,7 +3764,8 @@
         [
           "Chimes_at_Midnight.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Chimes at Midnight"
     },
     {
       "query_id": "query_212",
@@ -3571,7 +3785,8 @@
         [
           "Gwen_Stefani.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Debbie Harry, Belinda Carlisle, Gwen Stefani"
     },
     {
       "query_id": "query_213",
@@ -3591,7 +3806,8 @@
         [
           "Edward_Albee.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Frank Tashlin"
     },
     {
       "query_id": "query_214",
@@ -3613,7 +3829,8 @@
         [
           "Collision_in_Korea.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Battle of Hong Kong (8–25 December 1941) → capture of U-505 (June 4, 1944) → Collision in Korea (April 28–29, 1995)."
     },
     {
       "query_id": "query_215",
@@ -3633,7 +3850,8 @@
         [
           "Dorothy_Parker.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "George Gershwin (born 1898)."
     },
     {
       "query_id": "query_216",
@@ -3653,7 +3871,8 @@
         [
           "Brad_Bird.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Brad Bird"
     },
     {
       "query_id": "query_217",
@@ -3673,7 +3892,8 @@
         [
           "Grizzly_Man.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "A Doll's House (1922), Grizzly Man (2005), Bridge of Spies (2015)"
     },
     {
       "query_id": "query_218",
@@ -3693,7 +3913,8 @@
         [
           "Felix_Mendelssohn.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Felix Mendelssohn Bartholdy, David Hilbert, Halldór Kiljan Laxness"
     },
     {
       "query_id": "query_219",
@@ -3713,7 +3934,8 @@
         [
           "Dreamland_(amusement_park).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Yes. Dreamland was operating during Ainslee's Magazine’s publication span, and the election occurred 89 years 11 months after the magazine ceased."
     },
     {
       "query_id": "query_220",
@@ -3733,7 +3955,8 @@
         [
           "Charles_Rocket.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Gregg Popovich and Charles Rocket; Gregg Popovich is older; Garry Marshall was born 15 years earlier than 1949"
     },
     {
       "query_id": "query_221",
@@ -3753,7 +3976,8 @@
         [
           "1500_metres.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "103 years total from the end of the Franco-Prussian War to the first Berlin Marathon, and 25 of those years had passed by the time the 1500 metres debuted at the Olympics."
     },
     {
       "query_id": "query_222",
@@ -3773,7 +3997,8 @@
         [
           "58th_Bodil_Awards.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Yes, to both: more than a century after the war and more than four centuries after Frederick I’s death."
     },
     {
       "query_id": "query_223",
@@ -3793,7 +4018,8 @@
         [
           "Geoffrey_Serle.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Ava Marie DuVernay."
     },
     {
       "query_id": "query_224",
@@ -3813,7 +4039,8 @@
         [
           "C'est_si_bon_(film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1976"
     },
     {
       "query_id": "query_225",
@@ -3833,7 +4060,8 @@
         [
           "Coldplay.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1985; Berlin Marathon started before the midpoint"
     },
     {
       "query_id": "query_226",
@@ -3853,7 +4081,8 @@
         [
           "Bette_Davis.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bette Davis, by 39 years."
     },
     {
       "query_id": "query_227",
@@ -3873,7 +4102,8 @@
         [
           "Brokeback_Mountain.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Closer to Brokeback Mountain by 6 years"
     },
     {
       "query_id": "query_228",
@@ -3893,7 +4123,8 @@
         [
           "Flavio_Santos.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dai Xianrong, Andy Roddick, Flavio de Jesús Santos"
     },
     {
       "query_id": "query_229",
@@ -3913,7 +4144,8 @@
         [
           "Garth_Ennis.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Emma Bunton"
     },
     {
       "query_id": "query_230",
@@ -3933,7 +4165,8 @@
         [
           "Galleria_Vittorio_Emanuele_II.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "215"
     },
     {
       "query_id": "query_231",
@@ -3953,7 +4186,8 @@
         [
           "Carl_Maria_von_Weber.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Carl Maria von Weber’s death (5 June 1826)."
     },
     {
       "query_id": "query_232",
@@ -3973,7 +4207,8 @@
         [
           "Donald_O'Connor.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Donald O'Connor (Aug 28), Elia Kazan (Sep 7), Grace Metalious (Sep 8)."
     },
     {
       "query_id": "query_233",
@@ -3993,7 +4228,8 @@
         [
           "Boxing_Day.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Yes"
     },
     {
       "query_id": "query_234",
@@ -4013,7 +4249,8 @@
         [
           "Chris_Jericho.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "2"
     },
     {
       "query_id": "query_235",
@@ -4033,7 +4270,8 @@
         [
           "2017_Major_League_Baseball_draft.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Gordon Henry Burns"
     },
     {
       "query_id": "query_236",
@@ -4053,7 +4291,8 @@
         [
           "Belinda_Carlisle.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Ava DuVernay"
     },
     {
       "query_id": "query_237",
@@ -4073,7 +4312,8 @@
         [
           "Biff_Byford.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1949"
     },
     {
       "query_id": "query_238",
@@ -4093,7 +4333,8 @@
         [
           "Gitta_Sereny.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Gitta Sereny’s death in 2012."
     },
     {
       "query_id": "query_239",
@@ -4113,7 +4354,8 @@
         [
           "2009_UEFA_Champions_League_Final.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Arsenal becoming the first London team to appear in a UEFA Champions League final (2006) is closer to the AFC North adopting its current name (2002)."
     },
     {
       "query_id": "query_240",
@@ -4133,7 +4375,8 @@
         [
           "Carlos_Santana.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bronwyn Kathleen Bishop"
     },
     {
       "query_id": "query_241",
@@ -4153,7 +4396,8 @@
         [
           "Bakermat.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Lodewijk"
     },
     {
       "query_id": "query_242",
@@ -4173,7 +4417,8 @@
         [
           "Delmer_Daves.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Delmer Lawrence Daves"
     },
     {
       "query_id": "query_243",
@@ -4193,7 +4438,8 @@
         [
           "Dangerous_Liaisons.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1999."
     },
     {
       "query_id": "query_244",
@@ -4215,7 +4461,8 @@
         [
           "1812_Overture.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Edvard Grieg"
     },
     {
       "query_id": "query_245",
@@ -4235,7 +4482,8 @@
         [
           "Brandon_Routh.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Emma Bunton"
     },
     {
       "query_id": "query_246",
@@ -4255,7 +4503,8 @@
         [
           "Bo_Diddley.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Alisa Zinov'yevna Rosenbaum; Vasanth Kumar Shivashankar Padukone; Ellas Otha Bates"
     },
     {
       "query_id": "query_247",
@@ -4275,7 +4524,8 @@
         [
           "Britney_Spears_Live_from_Las_Vegas.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "5840"
     },
     {
       "query_id": "query_248",
@@ -4295,7 +4545,8 @@
         [
           "Eusebio_Valli.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The birth of Eusebio Valli."
     },
     {
       "query_id": "query_249",
@@ -4315,7 +4566,8 @@
         [
           "Beat_It.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "35"
     },
     {
       "query_id": "query_250",
@@ -4335,7 +4587,8 @@
         [
           "Bob_Saget.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Christopher Fairbank"
     },
     {
       "query_id": "query_251",
@@ -4355,7 +4608,8 @@
         [
           "Carrie_Coon.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1947."
     },
     {
       "query_id": "query_252",
@@ -4375,7 +4629,8 @@
         [
           "Freakonomics_(film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The Atlas Shrugged films have an average release year of approximately 2012.33, while the midpoint between Akira (1988) and Freakonomics: The Movie (2010) is 1999. The Atlas Shrugged average is later."
     },
     {
       "query_id": "query_253",
@@ -4395,7 +4650,8 @@
         [
           "Beau_Bokan.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Charmian Carr (December 27, 1942) is the one born in December. Beau Mark Bokan (November 30, 1981) is the other."
     },
     {
       "query_id": "query_254",
@@ -4415,7 +4671,8 @@
         [
           "Charice_(album).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Elvis' Christmas Album (1957) → Dancing with the Stars (2005) → Charice (2010)."
     },
     {
       "query_id": "query_255",
@@ -4435,7 +4692,8 @@
         [
           "Gore_Verbinski.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Frederick Martin 'Fred' MacMurray, Carolyn Laurie Kane, Gore Verbinski"
     },
     {
       "query_id": "query_256",
@@ -4455,7 +4713,8 @@
         [
           "Godiva_Chocolatier.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Christopher Lee is older by 41 years and 49 days."
     },
     {
       "query_id": "query_257",
@@ -4475,7 +4734,8 @@
         [
           "Bedlam_Series.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "City: Oklahoma City; State: Oklahoma; Rivalry: Bedlam Series."
     },
     {
       "query_id": "query_258",
@@ -4495,7 +4755,8 @@
         [
           "Chimes_at_Midnight.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Gregg Charles Popovich"
     },
     {
       "query_id": "query_259",
@@ -4515,7 +4776,8 @@
         [
           "Gene_Hackman.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Coal Miner’s Daughter is exactly at the midpoint; Forrest Gump was released 14 years after that midpoint."
     },
     {
       "query_id": "query_260",
@@ -4535,7 +4797,8 @@
         [
           "Arthur_Penn.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "27 years, then 10 years"
     },
     {
       "query_id": "query_261",
@@ -4555,7 +4818,8 @@
         [
           "Aviation_Hall_of_Fame_and_Museum_of_New_Jersey.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Garfield’s death (1881) → Erie Railroad Co. v. Tompkins (1938) → Aviation Hall Of Fame & Museum of New Jersey founding (1972)."
     },
     {
       "query_id": "query_262",
@@ -4575,7 +4839,8 @@
         [
           "Gillian_Anderson.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "12 years (Bernard King was 53 and Gillian Anderson was 41 on May 11, 2010; a 12-year difference)."
     },
     {
       "query_id": "query_263",
@@ -4595,7 +4860,8 @@
         [
           "Forrest_Gump.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bambi (1942); Mary Poppins (1964); Forrest Gump (1994)"
     },
     {
       "query_id": "query_264",
@@ -4617,7 +4883,8 @@
         [
           "Camel_Up.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dial M for Murder (1954); Cloud Atlas (2012); Camel Up (2014)."
     },
     {
       "query_id": "query_265",
@@ -4639,7 +4906,8 @@
           "2007–08_Atlanta_Hawks_season.txt_page001_chunk001",
           "Al_Horford.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "3rd overall"
     },
     {
       "query_id": "query_266",
@@ -4659,7 +4927,8 @@
         [
           "Gore_Verbinski.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bobby Keys"
     },
     {
       "query_id": "query_267",
@@ -4679,7 +4948,8 @@
         [
           "Arsenio_Hall.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Gary Michael Cole began his professional acting career in 1985."
     },
     {
       "query_id": "query_268",
@@ -4699,7 +4969,8 @@
         [
           "Dave_Lee_Travis.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dave Lee Travis"
     },
     {
       "query_id": "query_269",
@@ -4719,7 +4990,8 @@
         [
           "Dion_Lewis.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dion Lewis’s playoff performance."
     },
     {
       "query_id": "query_270",
@@ -4739,7 +5011,8 @@
         [
           "Beyond_Rangoon.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Beyond Rangoon (1995), Brokeback Mountain (2005), Black Book (2006)"
     },
     {
       "query_id": "query_271",
@@ -4759,7 +5032,8 @@
         [
           "Dreamland_(amusement_park).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Aéroport Charles de Gaulle 2 TGV station"
     },
     {
       "query_id": "query_272",
@@ -4779,7 +5053,8 @@
         [
           "George_P._Shultz.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bob Hope was born first (1903) and Daniel Tosh was born last (1975)."
     },
     {
       "query_id": "query_273",
@@ -4799,7 +5074,8 @@
         [
           "Carlos_Santana.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "22"
     },
     {
       "query_id": "query_274",
@@ -4819,7 +5095,8 @@
         [
           "1925_Birthday_Honours.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "6.25%"
     },
     {
       "query_id": "query_275",
@@ -4839,7 +5116,8 @@
         [
           "Gordon_Burns.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The release of Bambi (August 13, 1942) falls between Gordon Henry Burns’s birth (June 10, 1942) and Bronwyn Kathleen Bishop’s birth (October 19, 1942)."
     },
     {
       "query_id": "query_276",
@@ -4859,7 +5137,8 @@
         [
           "Charmian_Carr.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Charmian Carr"
     },
     {
       "query_id": "query_277",
@@ -4879,7 +5158,8 @@
         [
           "Grand_Canyon_National_Park_Airport.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Three groups contain exactly one airport each: Branding — Bob Hope Airport (Hollywood Burbank); Official name — Boeing Field (King County International Airport); IATA code — Grand Canyon National Park Airport (GCN)."
     },
     {
       "query_id": "query_278",
@@ -4899,7 +5179,8 @@
         [
           "Anita_Loos.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Carol Kane was older (29 vs. 28)."
     },
     {
       "query_id": "query_279",
@@ -4919,7 +5200,8 @@
         [
           "Alternative_facts.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Sokal affair (1996) → Freakonomics: The Movie release (2010) → 'Alternative facts' Meet the Press interview (January 22, 2017)."
     },
     {
       "query_id": "query_280",
@@ -4941,7 +5223,8 @@
         [
           "1999–2000_Los_Angeles_Clippers_season.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "NBA; Chicago Bulls; 45 games."
     },
     {
       "query_id": "query_281",
@@ -4961,7 +5244,8 @@
         [
           "Bill_Walton.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "George Yardley"
     },
     {
       "query_id": "query_282",
@@ -4981,7 +5265,8 @@
         [
           "Erich_Maria_Remarque.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Erich Maria Remarque and Eugène Ionesco"
     },
     {
       "query_id": "query_283",
@@ -5001,7 +5286,8 @@
         [
           "Caleb_Shomo.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Anthony Deane Rapp"
     },
     {
       "query_id": "query_284",
@@ -5023,7 +5309,8 @@
         [
           "Bart_the_Fink.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Batman release (1989) comes first, followed by CeCe Peniston’s 'Finally' peak in January 1992, and finally The Simpsons' 'Bart the Fink' first airing on February 11, 1996."
     },
     {
       "query_id": "query_285",
@@ -5043,7 +5330,8 @@
         [
           "BOAC_Flight_911.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "57 years total (Elvis 31 years old and Dusty 26 years old) on March 5, 1966."
     },
     {
       "query_id": "query_286",
@@ -5063,7 +5351,8 @@
         [
           "Elvis_Presley.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Albert Camus"
     },
     {
       "query_id": "query_287",
@@ -5083,7 +5372,8 @@
         [
           "Daniel_Myrick.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Daniel Myrick"
     },
     {
       "query_id": "query_288",
@@ -5103,7 +5393,8 @@
         [
           "Charles_M._Schulz.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "23 years"
     },
     {
       "query_id": "query_289",
@@ -5123,7 +5414,8 @@
         [
           "Elvis'_Christmas_Album.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "56 years; yes, the separation to Clark Gable's birth is also 56 years."
     },
     {
       "query_id": "query_290",
@@ -5143,7 +5435,8 @@
         [
           "Denzel_Washington.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Denzel Washington and Gregg Popovich share the same birthday day-of-month (28); Don Criqui is the oldest."
     },
     {
       "query_id": "query_291",
@@ -5163,7 +5456,8 @@
         [
           "Christian_Science_Sentinel.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The interval from 1919 to 1956 (37 years) is longer than the interval from 1898 to 1919 (21 years) by 16 years."
     },
     {
       "query_id": "query_292",
@@ -5183,7 +5477,8 @@
         [
           "Gregg_Popovich.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Gregg Charles Popovich, Joel David Coen, Denzel Hayes Washington Jr."
     },
     {
       "query_id": "query_293",
@@ -5203,7 +5498,8 @@
         [
           "Greg_Anthony.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Cedric the Entertainer was older by 3 full years (Cedric 40, Greg 37) on January 8, 2005."
     },
     {
       "query_id": "query_294",
@@ -5223,7 +5519,8 @@
         [
           "Bob_Saget.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bernard King"
     },
     {
       "query_id": "query_295",
@@ -5243,7 +5540,8 @@
         [
           "Betsy_Ross_Bridge.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Ratio 12:5; the Betsy Ross Bridge finished 9 years before Roma’s 1983 title."
     },
     {
       "query_id": "query_296",
@@ -5263,7 +5561,8 @@
         [
           "Gimlet_(cocktail).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "6/17"
     },
     {
       "query_id": "query_297",
@@ -5283,7 +5582,8 @@
         [
           "Carlos_Santana.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Benedict Arnold, George Cayley, Carlos Santana"
     },
     {
       "query_id": "query_298",
@@ -5303,7 +5603,8 @@
         [
           "Grounded_Vindaloop.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Fourth in its season: Cherokee Rose; Seventh: Grounded Vindaloop; Not an episode at all: Freakonomics: The Movie."
     },
     {
       "query_id": "query_299",
@@ -5323,7 +5624,8 @@
         [
           "Fairleigh_Dickinson_University.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Fairleigh Dickinson University was the event that occurred second, in 1942."
     },
     {
       "query_id": "query_300",
@@ -5343,7 +5645,8 @@
         [
           "Baseball_Bugs.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Autopsy date (Oct 29, 1901): 1 month 1 day old. Release date (Feb 2, 1946): 44 years, 4 months, 5 days old."
     },
     {
       "query_id": "query_301",
@@ -5363,7 +5666,8 @@
         [
           "Hail!_Hail!_Rock_'n'_Roll.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "A Doll's House (1922)."
     },
     {
       "query_id": "query_302",
@@ -5385,7 +5689,8 @@
         [
           "2016_Cannes_Film_Festival.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "69th Cannes Film Festival; Rihanna"
     },
     {
       "query_id": "query_303",
@@ -5405,7 +5710,8 @@
         [
           "1999_Galtür_avalanche.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "46"
     },
     {
       "query_id": "query_304",
@@ -5425,7 +5731,8 @@
         [
           "Bob_Hope_Airport.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dane County Regional Airport and Blue Grass Airport are described by distance and direction from downtown; Bob Hope Airport is identified by branding as Hollywood Burbank Airport."
     },
     {
       "query_id": "query_305",
@@ -5445,7 +5752,8 @@
         [
           "Fading_(song).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Taylor Swift; Rihanna; Matthew Sanders"
     },
     {
       "query_id": "query_306",
@@ -5465,7 +5773,8 @@
         [
           "Boxing_Day.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "6:8773"
     },
     {
       "query_id": "query_307",
@@ -5485,7 +5794,8 @@
         [
           "Donald_Trump_presidential_campaign,_2016.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Ben Stein: 71; Chelsea Handler: 41"
     },
     {
       "query_id": "query_308",
@@ -5505,7 +5815,8 @@
         [
           "Dane_DeHaan.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Oldest: Charmian Carr (born 1942); Youngest: Dane DeHaan (born 1986); Difference: 44 years."
     },
     {
       "query_id": "query_309",
@@ -5525,7 +5836,8 @@
         [
           "1_New_York_Plaza.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1 New York Plaza — cited by 1_New_York_Plaza.txt; Intersection of South and Whitehall Streets — cited by 1_New_York_Plaza.txt; New York City's Financial District — cited by 1_New_York_Plaza.txt; Rose Bar — cited by Brian_Newman.txt; Gramercy Park Hotel — cited by Brian_Newman.txt; null beyond the city: Duck Down Music Inc (cited in Duck_Down_Music.txt)."
     },
     {
       "query_id": "query_310",
@@ -5545,7 +5857,8 @@
         [
           "Amal_Clooney.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "28"
     },
     {
       "query_id": "query_311",
@@ -5565,7 +5878,8 @@
         [
           "Frank_Lowy.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Frank Lowy; 29 years closer."
     },
     {
       "query_id": "query_312",
@@ -5585,7 +5899,8 @@
         [
           "Derek_Jacobi.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "American, 3 distinct job titles."
     },
     {
       "query_id": "query_313",
@@ -5605,7 +5920,8 @@
         [
           "Bill_Walton.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "George Clooney"
     },
     {
       "query_id": "query_314",
@@ -5625,7 +5941,8 @@
         [
           "Glen_Burnie,_Maryland.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "187,200"
     },
     {
       "query_id": "query_315",
@@ -5645,7 +5962,8 @@
         [
           "Caprice_Dydasco.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Christian Yelich was older on August 7, 2011 (Christian born December 5, 1991) than Caprice Dydasco (born August 19, 1993)."
     },
     {
       "query_id": "query_316",
@@ -5665,7 +5983,8 @@
         [
           "Charles_Burnett_(director).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Hail! Hail! Rock 'n' Roll"
     },
     {
       "query_id": "query_317",
@@ -5685,7 +6004,8 @@
         [
           "Albany,_New_York.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "15,663.86"
     },
     {
       "query_id": "query_318",
@@ -5705,7 +6025,8 @@
         [
           "George_P._Shultz.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Shultz birth (1920-12-13) → Housman death (1936-04-30) → Dr. Demento birth (1941-04-02)."
     },
     {
       "query_id": "query_319",
@@ -5725,7 +6046,8 @@
         [
           "Alexander_Hall.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Alexander Hall, Donald Seaton Cammell, Garry Kent Marshall"
     },
     {
       "query_id": "query_320",
@@ -5745,7 +6067,8 @@
         [
           "Dorothy_Parker.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dorothy Parker"
     },
     {
       "query_id": "query_321",
@@ -5765,7 +6088,8 @@
         [
           "Freakonomics_(film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Freakonomics: The Movie (2010) is closer to Garfield’s 2007 debut."
     },
     {
       "query_id": "query_322",
@@ -5785,7 +6109,8 @@
         [
           "Billy_Howle.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "George H. W. Bush"
     },
     {
       "query_id": "query_323",
@@ -5805,7 +6130,8 @@
         [
           "Bedknobs_and_Broomsticks.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bedknobs and Broomsticks"
     },
     {
       "query_id": "query_324",
@@ -5825,7 +6151,8 @@
         [
           "DreamWorks_Dragons.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1 year"
     },
     {
       "query_id": "query_325",
@@ -5845,7 +6172,8 @@
         [
           "Conrad_Lant.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bob Dylan and Conrad Thomas Lant have three-word birth names; Darryl Hill has a two-word birth name."
     },
     {
       "query_id": "query_326",
@@ -5865,7 +6193,8 @@
         [
           "Arrowverse.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "3 distinct named franchises/universes: Marvel Cinematic Universe, Marvel Comics, Arrowverse."
     },
     {
       "query_id": "query_327",
@@ -5885,7 +6214,8 @@
         [
           "Chelsea_Handler.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Chelsea Handler"
     },
     {
       "query_id": "query_328",
@@ -5905,7 +6235,8 @@
         [
           "Columbia_Falls,_Montana.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Ukrainian, Khmer, Salish"
     },
     {
       "query_id": "query_329",
@@ -5925,7 +6256,8 @@
         [
           "Bernard_King.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dana Ivey, Dave Wyndorf, Bernard King"
     },
     {
       "query_id": "query_330",
@@ -5945,7 +6277,8 @@
         [
           "Bill_Walton.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Two were born in January: Gordon Earle Moore and Connie May Fowler. William Theodore Walton III was not."
     },
     {
       "query_id": "query_331",
@@ -5965,7 +6298,8 @@
         [
           "Chumbawamba.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "3 years"
     },
     {
       "query_id": "query_332",
@@ -5985,7 +6319,8 @@
         [
           "Andy_Roddick.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Alexander Hall, Billy J. Kramer, Andrew Stephen Roddick"
     },
     {
       "query_id": "query_333",
@@ -6005,7 +6340,8 @@
         [
           "Billy_Martin_(tennis).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bent Hamer and Billy Martin (tennis)"
     },
     {
       "query_id": "query_334",
@@ -6025,7 +6361,8 @@
         [
           "Apollo_Theater.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Yes. Both the Aurora Generator Test (2007) and Charlie Wilson's War (2007) occurred during Showtime at the Apollo's on-air period (1987–2008)."
     },
     {
       "query_id": "query_335",
@@ -6049,7 +6386,8 @@
         [
           "Frank_Beard_(musician).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Emma Bunton"
     },
     {
       "query_id": "query_336",
@@ -6073,7 +6411,8 @@
         [
           "Berlin_Marathon.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Coal Miner’s Daughter, released in 1980, which is 6 years after 1974."
     },
     {
       "query_id": "query_337",
@@ -6097,7 +6436,8 @@
         [
           "Denzel_Washington.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Elia Kazan (born September 7, 1909); Bob Fosse (born June 23, 1927); Edward Albee (born March 12, 1928); Denzel Washington (born December 28, 1954)."
     },
     {
       "query_id": "query_338",
@@ -6121,7 +6461,8 @@
         [
           "Emily_Blunt.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1957.25"
     },
     {
       "query_id": "query_339",
@@ -6145,7 +6486,8 @@
         [
           "Glomar_Challenger.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "120"
     },
     {
       "query_id": "query_340",
@@ -6169,7 +6511,8 @@
         [
           "Aram_Avakian.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1978.5"
     },
     {
       "query_id": "query_341",
@@ -6193,7 +6536,8 @@
         [
           "Dara_Torres.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dara Torres"
     },
     {
       "query_id": "query_342",
@@ -6217,7 +6561,8 @@
         [
           "Daniel_Tosh.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Elvis Presley, Dolly Parton, Daniel Tosh, Avril Lavigne."
     },
     {
       "query_id": "query_343",
@@ -6241,7 +6586,8 @@
         [
           "Amon_Göth.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Amon Leopold Göth"
     },
     {
       "query_id": "query_344",
@@ -6265,7 +6611,8 @@
         [
           "Franco_Corelli.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1921.5"
     },
     {
       "query_id": "query_345",
@@ -6289,7 +6636,8 @@
         [
           "Academy_Awards_pre-show.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Event: The 58th Bodil Awards (27 February 2005). Academy Awards pre-show duration in 2005: 30 minutes."
     },
     {
       "query_id": "query_346",
@@ -6313,7 +6661,8 @@
         [
           "Charles_Bronson.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Three distinct first names: Charles, Anakin, and Otto."
     },
     {
       "query_id": "query_347",
@@ -6337,7 +6686,8 @@
         [
           "Alcatraz_East.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Adele’s debut album ‘19’ (2008) and the opening of Alcatraz East (2016) are closer, by 8 years."
     },
     {
       "query_id": "query_348",
@@ -6361,7 +6711,8 @@
         [
           "Baseball_Bugs.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Baseball Bugs released (1946)"
     },
     {
       "query_id": "query_349",
@@ -6385,7 +6736,8 @@
         [
           "Debbie_Harry.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "July 1; July 20; July 28; July 30"
     },
     {
       "query_id": "query_350",
@@ -6409,7 +6761,8 @@
         [
           "Computing_Machinery_and_Intelligence.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "97 years."
     },
     {
       "query_id": "query_351",
@@ -6433,7 +6786,8 @@
         [
           "Boxing_Day.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Donovan McNabb"
     },
     {
       "query_id": "query_352",
@@ -6457,7 +6811,8 @@
         [
           "Benny_Andersson.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dusty Springfield"
     },
     {
       "query_id": "query_353",
@@ -6481,7 +6836,8 @@
         [
           "Caroline_Wozniacki.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "George Jacob Gershwin."
     },
     {
       "query_id": "query_354",
@@ -6505,7 +6861,8 @@
         [
           "C._S._Lewis.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "5"
     },
     {
       "query_id": "query_355",
@@ -6529,7 +6886,8 @@
         [
           "Ben_Cardin.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "November, 2"
     },
     {
       "query_id": "query_356",
@@ -6553,7 +6911,8 @@
         [
           "Cedric_the_Entertainer.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Delmer Lawrence Daves"
     },
     {
       "query_id": "query_357",
@@ -6577,7 +6936,8 @@
         [
           "George_Abbott.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "186"
     },
     {
       "query_id": "query_358",
@@ -6601,7 +6961,8 @@
         [
           "Bryce_Courtenay.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1947.25"
     },
     {
       "query_id": "query_359",
@@ -6625,7 +6986,8 @@
         [
           "Bucharest.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "2"
     },
     {
       "query_id": "query_360",
@@ -6651,7 +7013,8 @@
         [
           "Ferdinand_(film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Creature from the Black Lagoon; Coal Miner's Daughter; Big Hero 6; Ferdinand"
     },
     {
       "query_id": "query_361",
@@ -6675,7 +7038,8 @@
         [
           "Cruz_Azul.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "People: C. J. Cherryh; Cronos. Non-person entities: Atik Valide Camii and Eski Valide Camii (mosque Turkish names); Blue Cross (Cruz Azul)."
     },
     {
       "query_id": "query_362",
@@ -6701,7 +7065,8 @@
         [
           "Georgia_World_Congress_Center.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "46"
     },
     {
       "query_id": "query_363",
@@ -6725,7 +7090,8 @@
         [
           "Donald_Sutherland.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Donald Sutherland"
     },
     {
       "query_id": "query_364",
@@ -6749,7 +7115,8 @@
         [
           "Damon_Albarn.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "106 years (1862 to 1968)."
     },
     {
       "query_id": "query_365",
@@ -6773,7 +7140,8 @@
         [
           "Aaliyah.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bruce Chatwin, born 1940"
     },
     {
       "query_id": "query_366",
@@ -6797,7 +7165,8 @@
         [
           "David_Angell.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Deb Lacusta and Bryce Courtenay birth-year span is longer by 9 years."
     },
     {
       "query_id": "query_367",
@@ -6821,7 +7190,8 @@
         [
           "Bambi.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "2"
     },
     {
       "query_id": "query_368",
@@ -6845,7 +7215,8 @@
         [
           "Edwardian_era.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "79 years"
     },
     {
       "query_id": "query_369",
@@ -6869,7 +7240,8 @@
         [
           "George_Yardley.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Same day and month: Colin Kaepernick and George Yardley (both born November 3). Same birth year: Cate Shortland and Gillian Anderson (both born in 1968)."
     },
     {
       "query_id": "query_370",
@@ -6893,7 +7265,8 @@
         [
           "Chasing_Coral.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "46 years"
     },
     {
       "query_id": "query_371",
@@ -6917,7 +7290,8 @@
         [
           "Floor_Jansen.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Floor Jansen"
     },
     {
       "query_id": "query_372",
@@ -6943,7 +7317,8 @@
         [
           "Blade_II.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Creature from the Black Lagoon (1954) -> Blade II (2002) -> Battleship (2012) -> Big Hero 6 (2014)"
     },
     {
       "query_id": "query_373",
@@ -6967,7 +7342,8 @@
         [
           "Chariots_of_Fire.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Baseball Bugs (1946) -> Chariots of Fire (1981) -> Beat It (1983) -> Batman (1989)"
     },
     {
       "query_id": "query_374",
@@ -6991,7 +7367,8 @@
         [
           "David_Bowie.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Earliest: David Bowie (January 8); Latest: Elie Wiesel (September 30)."
     },
     {
       "query_id": "query_375",
@@ -7015,7 +7392,8 @@
         [
           "Emeric_Pressburger.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1"
     },
     {
       "query_id": "query_376",
@@ -7039,7 +7417,8 @@
         [
           "George_Albert_Smith.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "George Albert Smith Sr."
     },
     {
       "query_id": "query_377",
@@ -7063,7 +7442,8 @@
         [
           "Elia_Kazan.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Oldest to youngest: Ed Sullivan, Elia Kazan, Bruce Chatwin, Dolly Parton."
     },
     {
       "query_id": "query_378",
@@ -7087,7 +7467,8 @@
         [
           "Gore_Verbinski.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Christopher Lee, Donald Sutherland, Gore Verbinski, Alan Tudyk"
     },
     {
       "query_id": "query_379",
@@ -7111,7 +7492,8 @@
         [
           "Big_Stone_Gap_(film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "2011.5"
     },
     {
       "query_id": "query_380",
@@ -7135,7 +7517,8 @@
         [
           "Chris_Evans_(actor).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Two aliases are for individual people: Falz (Folarin Falana) and Cappadonna (Darryl Hill). The other two are a band name (Dr. Hook, i.e., Dr. Hook & the Medicine Show) and a superhero identity (Captain America)."
     },
     {
       "query_id": "query_381",
@@ -7159,7 +7542,8 @@
         [
           "Giorgio_Ferroni.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Giorgio Ferroni, 7 years"
     },
     {
       "query_id": "query_382",
@@ -7183,7 +7567,8 @@
         [
           "Daniel_Tosh.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Daniel Tosh; Diane Morgan; Emma Bunton; Emily Blunt"
     },
     {
       "query_id": "query_383",
@@ -7207,7 +7592,8 @@
         [
           "Charmian_Carr.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Denzel Washington"
     },
     {
       "query_id": "query_384",
@@ -7231,7 +7617,8 @@
         [
           "Bo_Welch.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Beau Mark Bokan–Robert W. Welch III; it exceeds by 29 years."
     },
     {
       "query_id": "query_385",
@@ -7255,7 +7642,8 @@
         [
           "Alex_Sink.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Tie — both April and June occur twice."
     },
     {
       "query_id": "query_386",
@@ -7279,7 +7667,8 @@
         [
           "George_Archainbaud.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Evel Knievel"
     },
     {
       "query_id": "query_387",
@@ -7303,7 +7692,8 @@
         [
           "Graham_Hill.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "44:43"
     },
     {
       "query_id": "query_388",
@@ -7327,7 +7717,8 @@
         [
           "Chiwetel_Ejiofor.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Eric Bana"
     },
     {
       "query_id": "query_389",
@@ -7351,7 +7742,8 @@
         [
           "Blade_II.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1992."
     },
     {
       "query_id": "query_390",
@@ -7375,7 +7767,8 @@
         [
           "Carlos_Santana.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Hal Linden, by 7 full years"
     },
     {
       "query_id": "query_391",
@@ -7399,7 +7792,8 @@
         [
           "America_(band).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Decade: 1970s; Color: blue; Wavelength: 470 nanometres."
     },
     {
       "query_id": "query_392",
@@ -7423,7 +7817,8 @@
         [
           "Dolly_Parton.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Carrie Underwood"
     },
     {
       "query_id": "query_393",
@@ -7447,7 +7842,8 @@
         [
           "An_American_Werewolf_in_Paris.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1978.75"
     },
     {
       "query_id": "query_394",
@@ -7471,7 +7867,8 @@
         [
           "Hail!_Hail!_Rock_'n'_Roll.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Babes in Toyland (1961); Bedknobs and Broomsticks (1971); Coal Miner's Daughter (1980); Hail! Hail! Rock 'n' Roll (1987)."
     },
     {
       "query_id": "query_395",
@@ -7495,7 +7892,8 @@
         [
           "Coraline.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Christopher Lee was 57 years old when Gödel, Escher, Bach was first published, and that is 8 years older than Bill Pullman’s age of 49 in 2002."
     },
     {
       "query_id": "query_396",
@@ -7519,7 +7917,8 @@
         [
           "Christianity_Today.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1965"
     },
     {
       "query_id": "query_397",
@@ -7543,7 +7942,8 @@
         [
           "C._S._Lewis.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1) Also_sprach Zarathustra first performance, 2) Florence Nightingale’s death, 3) Start of Bernard Lovell’s directorship, 4) C. S. Lewis’s death."
     },
     {
       "query_id": "query_398",
@@ -7567,7 +7967,8 @@
         [
           "Hail!_Hail!_Rock_'n'_Roll.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "16"
     },
     {
       "query_id": "query_399",
@@ -7591,7 +7992,8 @@
         [
           "Dirk_Frimout.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Elizabeth Cleghorn Gaskell; Catherine Anahid Berberian; David Irving; Dirk Dries David Damiaan, Viscount Frimout"
     },
     {
       "query_id": "query_400",
@@ -7615,7 +8017,8 @@
         [
           "Benny_Andersson.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Emilio Fernández, Göran Bror Benny Andersson, Belinda Jo Carlisle, Cherie Ann Currie"
     },
     {
       "query_id": "query_401",
@@ -7639,7 +8042,8 @@
         [
           "Frank_Vincent.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Frank Vincent; HBO"
     },
     {
       "query_id": "query_402",
@@ -7665,7 +8069,8 @@
         [
           "Brooklyn_(film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "2002.5"
     },
     {
       "query_id": "query_403",
@@ -7689,7 +8094,8 @@
         [
           "Camp_Modin.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "37"
     },
     {
       "query_id": "query_404",
@@ -7713,7 +8119,8 @@
         [
           "Christopher_Nolan.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Yes; 3 years"
     },
     {
       "query_id": "query_405",
@@ -7737,7 +8144,8 @@
         [
           "Bernard_King.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bernard King (born December 4, 1956), Robert T. Beers (born October 14, 1959), Ervin Randle (born October 12, 1962), Dean Windass (born April 1, 1969)."
     },
     {
       "query_id": "query_406",
@@ -7761,7 +8169,8 @@
         [
           "2017_Major_League_Baseball_draft.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Buddy Hield"
     },
     {
       "query_id": "query_407",
@@ -7785,7 +8194,8 @@
         [
           "Galleria_Vittorio_Emanuele_II.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Yes, they overlap. The Bridgewater Canal opening is closer in time to the war’s start than the Jacobite defeat at Culloden."
     },
     {
       "query_id": "query_408",
@@ -7809,7 +8219,8 @@
         [
           "Denzel_Washington.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Carrie Coon"
     },
     {
       "query_id": "query_409",
@@ -7833,7 +8244,8 @@
         [
           "Francesca_Eastwood.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Emily Blunt"
     },
     {
       "query_id": "query_410",
@@ -7857,7 +8269,8 @@
         [
           "Christopher_Nolan.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1962"
     },
     {
       "query_id": "query_411",
@@ -7881,7 +8294,8 @@
         [
           "All_Souls_College,_Oxford.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "England: 2; Switzerland: 1; United States: 1."
     },
     {
       "query_id": "query_412",
@@ -7905,7 +8319,8 @@
         [
           "Erich_Ludendorff.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Fred M. Vinson"
     },
     {
       "query_id": "query_413",
@@ -7929,7 +8344,8 @@
         [
           "David_Spade.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1927"
     },
     {
       "query_id": "query_414",
@@ -7953,7 +8369,8 @@
         [
           "Caroline_Wozniacki.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bret Easton Ellis, Edison Chen, Ashanti, Caroline Wozniacki"
     },
     {
       "query_id": "query_415",
@@ -7977,7 +8394,8 @@
         [
           "Grigory_Margulis.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "173"
     },
     {
       "query_id": "query_416",
@@ -8001,7 +8419,8 @@
         [
           "Douglas_Hofstadter.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "67 years"
     },
     {
       "query_id": "query_417",
@@ -8025,7 +8444,8 @@
         [
           "Falz.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "- Alexi Laiho: Markku Uula Aleksi Laiho\n- Dr. Dre: Andre Romelle Young\n- Falz: Folarin Falana\n- Pepe: Francisco José Hernández"
     },
     {
       "query_id": "query_418",
@@ -8049,7 +8469,8 @@
         [
           "David_L._Boren.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Death-associated individuals: Angelo Bruno — assassinated in 1980; Florence Nightingale — died in 1910. Non-death-associated individuals: Anthony Scrivener — notable defence work: 2001 (Tony Martin case) and 2005 (Saddam Hussein defence). David L. Boren — political offices: Governor of Oklahoma (1975–1979) and U.S. Senator (1979–1994)."
     },
     {
       "query_id": "query_419",
@@ -8073,7 +8494,8 @@
         [
           "Boeing_707.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "37 years."
     },
     {
       "query_id": "query_420",
@@ -8097,7 +8519,8 @@
         [
           "Donald_Cammell.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "16"
     },
     {
       "query_id": "query_421",
@@ -8122,7 +8545,8 @@
         [
           "Australian_Street_Stock_Championship.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "National in scope: Australian Street Stock Championship. Explicitly instrumental: Dirty Three. Shared state for the two place-based entries: South Australia."
     },
     {
       "query_id": "query_422",
@@ -8146,7 +8570,8 @@
         [
           "DreamWorks_Dragons.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The span from Black Sabbath’s The Dio Years to the sequel year (2007 to 2014) is larger by 3 years."
     },
     {
       "query_id": "query_423",
@@ -8172,7 +8597,8 @@
           "Audition_(album).txt_page001_chunk001",
           "Doomtree.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "EMPIRE is an American distribution company and record label; Crazy Town is a rap rock band; P.O.S belongs to the Doomtree collective in Minneapolis; the release term is EP."
     },
     {
       "query_id": "query_424",
@@ -8196,7 +8622,8 @@
         [
           "Baa,_Baa,_Black_Sheep.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "681"
     },
     {
       "query_id": "query_425",
@@ -8220,7 +8647,8 @@
         [
           "Bryan_Kocis.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "3"
     },
     {
       "query_id": "query_426",
@@ -8244,7 +8672,8 @@
         [
           "Barnstable_County_Hospital.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "59 years 4 months."
     },
     {
       "query_id": "query_427",
@@ -8268,7 +8697,8 @@
         [
           "Alex_Lynn.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Donald O’Connor"
     },
     {
       "query_id": "query_428",
@@ -8292,7 +8722,8 @@
         [
           "Dial_M_for_Murder.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dial M for Murder (1954), Dungeons & Dragons boxed set (1974), Doc Hollywood (1991)"
     },
     {
       "query_id": "query_429",
@@ -8316,7 +8747,8 @@
         [
           "George_H._W._Bush.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "25"
     },
     {
       "query_id": "query_430",
@@ -8340,7 +8772,8 @@
         [
           "Dayton's_Devils.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "34 years; 2 years after Cloud Atlas."
     },
     {
       "query_id": "query_431",
@@ -8364,7 +8797,8 @@
         [
           "Black_Elk_Speaks.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bronwyn Bishop’s birth came sooner by 4 years; Edoardo Soleri was born 51 years after the Baseball Bugs cartoon was released."
     },
     {
       "query_id": "query_432",
@@ -8388,7 +8822,8 @@
         [
           "Biff_Byford.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Biff Byford"
     },
     {
       "query_id": "query_433",
@@ -8412,7 +8847,8 @@
         [
           "Death_of_a_Soldier.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "33"
     },
     {
       "query_id": "query_434",
@@ -8436,7 +8872,8 @@
         [
           "Colin_Kaepernick.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Smallest gap: Dara Torres and Frank Thomas (1 year). Largest gap: Bill Walton and Colin Kaepernick (35 years)."
     },
     {
       "query_id": "query_435",
@@ -8460,7 +8897,8 @@
         [
           "Darleen_Carr.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "5"
     },
     {
       "query_id": "query_436",
@@ -8484,7 +8922,8 @@
         [
           "Arena_of_Khazan.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "33 years after Elvis' birth; the midpoint year is 1968."
     },
     {
       "query_id": "query_437",
@@ -8508,7 +8947,8 @@
         [
           "Chiwetel_Ejiofor.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "2"
     },
     {
       "query_id": "query_438",
@@ -8532,7 +8972,8 @@
         [
           "Dancing_with_the_Stars_(U.S._TV_series).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "94"
     },
     {
       "query_id": "query_439",
@@ -8556,7 +8997,8 @@
         [
           "Blank_Check_(film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Hong Kong: Drunken Master II, 1994; United States: Blank Check, 1994"
     },
     {
       "query_id": "query_440",
@@ -8580,7 +9022,8 @@
         [
           "Britney_Spears_Live_from_Las_Vegas.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Approximately 85.7 years after Kurosawa's birth."
     },
     {
       "query_id": "query_441",
@@ -8604,7 +9047,8 @@
         [
           "Barry_Keoghan.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "91 years"
     },
     {
       "query_id": "query_442",
@@ -8628,7 +9072,8 @@
         [
           "Dirk_Nowitzki.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Baz, Amal, Dirk, Busy"
     },
     {
       "query_id": "query_443",
@@ -8652,7 +9097,8 @@
         [
           "A_Doll's_House_(1922_film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "47"
     },
     {
       "query_id": "query_444",
@@ -8676,7 +9122,8 @@
         [
           "Black_Pearl_(K-Pop_Group).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "- Songs: All of the Lights; Faded.\n- Performing entities: AC/DC; Black Pearl.\n- Nationalities: AC/DC — Australian; Black Pearl — South Korean; Kanye West — American.\n- Song with extra vocals: All of the Lights."
     },
     {
       "query_id": "query_445",
@@ -8700,7 +9147,8 @@
         [
           "Frankie_LaRocka.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Frankie LaRocka, Chelsea Handler, Daron Malakian, Flula Borg"
     },
     {
       "query_id": "query_446",
@@ -8724,7 +9172,8 @@
         [
           "Báiki.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "5 distinct languages (English, Sámi, Turkish, Danish, German). English translation phrases supplied: \"hot cured cutlet with sauerkraut\" and \"waterside mansion\"."
     },
     {
       "query_id": "query_447",
@@ -8748,7 +9197,8 @@
         [
           "George_Clooney.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Chris Van Hollen, Cherie Currie, George Clooney, Daniel Tosh"
     },
     {
       "query_id": "query_448",
@@ -8772,7 +9222,8 @@
         [
           "Creem.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Hamlet composition (1868) → Genesis formation (1967) → Creem first publication (1969) → Five Summer Stories release (1972)."
     },
     {
       "query_id": "query_449",
@@ -8796,7 +9247,8 @@
         [
           "Dial_M_for_Murder.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "79"
     },
     {
       "query_id": "query_450",
@@ -8820,7 +9272,8 @@
         [
           "Bret_Easton_Ellis.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bret Easton Ellis; 16 years"
     },
     {
       "query_id": "query_451",
@@ -8844,7 +9297,8 @@
         [
           "Donald_Trump_presidential_campaign,_2016.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "272"
     },
     {
       "query_id": "query_452",
@@ -8868,7 +9322,8 @@
         [
           "Glen_Campbell.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "53"
     },
     {
       "query_id": "query_453",
@@ -8892,7 +9347,8 @@
         [
           "Charkhi_Dadri_mid-air_collision.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "139 years, 9 months, and 12 days."
     },
     {
       "query_id": "query_454",
@@ -8916,7 +9372,8 @@
         [
           "David_Bowie.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bowie was older by 34 full years on those dates (69 vs 35)."
     },
     {
       "query_id": "query_455",
@@ -8940,7 +9397,8 @@
         [
           "C._J._Hunter.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "C. J. Hunter’s birth (December 14, 1968)."
     },
     {
       "query_id": "query_456",
@@ -8964,7 +9422,8 @@
         [
           "1954_FIFA_World_Cup.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "73"
     },
     {
       "query_id": "query_457",
@@ -8990,7 +9449,8 @@
         [
           "Chumbawamba.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "3."
     },
     {
       "query_id": "query_458",
@@ -9014,7 +9474,8 @@
         [
           "Ashley_Cole.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Two people: Akosua Busia and Ashley Cole."
     },
     {
       "query_id": "query_459",
@@ -9038,7 +9499,8 @@
         [
           "2011_Teen_Choice_Awards.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Cate Shortland was older by 27 years (Cate: 42; Brenton: 15)."
     },
     {
       "query_id": "query_460",
@@ -9062,7 +9524,8 @@
         [
           "Dee_Dee_Ramone.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Anita Loos: 35 years; Elizabeth Hartman: 29 years; Dee Dee Ramone: 14 years. Closest: Dee Dee Ramone."
     },
     {
       "query_id": "query_461",
@@ -9088,7 +9551,8 @@
         [
           "Berlin_Marathon.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "67"
     },
     {
       "query_id": "query_462",
@@ -9112,7 +9576,8 @@
         [
           "Francis_Schaeffer.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "2 events share a year; the difference between the other two events is 2 years"
     },
     {
       "query_id": "query_463",
@@ -9140,7 +9605,8 @@
         [
           "Coins_of_the_Hawaiian_dollar.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1) 1847 — Hawaii’s first official coinage; 2) 1871 — End of the Franco-Prussian War; 3–4) 1908 — Gibson book publication and Anne of Green Gables publication (tie)."
     },
     {
       "query_id": "query_464",
@@ -9166,7 +9632,8 @@
         [
           "2014_Oregon_Ducks_football_team.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1974 South African Grand Prix (1974) → Arsenal’s UEFA Champions League final appearance (2006) → Al Horford drafted by the Atlanta Hawks (2007) → 2014 Oregon Ducks football season (2014)"
     },
     {
       "query_id": "query_465",
@@ -9190,7 +9657,8 @@
         [
           "Cosmopolitan_of_Las_Vegas.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The time span between the U-505 capture and the Cosmopolitan opening is larger (about 66.5 years) than the 36.2 years between the births of Bette Davis and Garo Yepremian."
     },
     {
       "query_id": "query_466",
@@ -9214,7 +9682,8 @@
         [
           "George_D._Maziarz.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Includes 'New York City': Duck Down Music Inc (Chunk 3), Continental Baths (Chunk 2). Does not include 'New York City': Colgate University (Chunk 1), George D. Maziarz (Chunk 4)."
     },
     {
       "query_id": "query_467",
@@ -9238,7 +9707,8 @@
         [
           "Bear_Grylls.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "November; 7 June"
     },
     {
       "query_id": "query_468",
@@ -9262,7 +9732,8 @@
         [
           "Battleship_(film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Constantine (2005) is closest to the Frodo midpoint (2002); distances: Forrest Gump 8 years, Constantine 3 years, Battleship 10 years."
     },
     {
       "query_id": "query_469",
@@ -9286,7 +9757,8 @@
         [
           "Flula_Borg.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Flula Borg; his birth date is after Anita Loos’s death (1981-08-18)."
     },
     {
       "query_id": "query_470",
@@ -9310,7 +9782,8 @@
         [
           "Avril_Lavigne.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "20 years"
     },
     {
       "query_id": "query_471",
@@ -9334,7 +9807,8 @@
         [
           "58th_Bodil_Awards.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "37"
     },
     {
       "query_id": "query_472",
@@ -9358,7 +9832,8 @@
         [
           "Baghdad_ER.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Goal of the Year (AFL) award, 2001"
     },
     {
       "query_id": "query_473",
@@ -9382,7 +9857,8 @@
         [
           "Edward_Smith-Stanley,_14th_Earl_of_Derby.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Peter Rodney 'Biff' Byford."
     },
     {
       "query_id": "query_474",
@@ -9406,7 +9882,8 @@
         [
           "Debbie_Harry.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bette Davis and Dick Purcell share a birth year of 1908; Debbie Harry (1945) and Daniel Craig (1968) are 23 years apart."
     },
     {
       "query_id": "query_475",
@@ -9418,7 +9895,8 @@
         [
           "Carl_von_Clausewitz.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "On War"
     },
     {
       "query_id": "query_476",
@@ -9430,7 +9908,8 @@
         [
           "Black_Star_(fragrance).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "30 ml"
     },
     {
       "query_id": "query_477",
@@ -9442,7 +9921,8 @@
         [
           "Franco-Prussian_War.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Start: 19 July 1870; End: 10 May 1871"
     },
     {
       "query_id": "query_478",
@@ -9454,7 +9934,8 @@
         [
           "Archie_Norman.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Archibald John Norman"
     },
     {
       "query_id": "query_479",
@@ -9468,7 +9949,8 @@
           "EFL_Cup.txt_page001_chunk001",
           "Game_39.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Premier League, Championship, League One, League Two"
     },
     {
       "query_id": "query_480",
@@ -9480,7 +9962,8 @@
         [
           "Echosmith.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "February 2009; Chino, California"
     },
     {
       "query_id": "query_481",
@@ -9492,7 +9975,8 @@
         [
           "Bob_Dylan.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Robert Allen Zimmerman"
     },
     {
       "query_id": "query_482",
@@ -9504,7 +9988,8 @@
         [
           "Agrippina_(opera).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Claudius"
     },
     {
       "query_id": "query_483",
@@ -9516,7 +10001,8 @@
         [
           "Assassination_of_William_McKinley.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The Pan-American Exposition, Buffalo, New York, on September 6, 1901"
     },
     {
       "query_id": "query_484",
@@ -9528,7 +10014,8 @@
         [
           "God_Save_the_Queen.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The title is determined by the gender of the reigning monarch; it is the national or royal anthem in a number of Commonwealth realms, their territories, and the British Crown Dependencies."
     },
     {
       "query_id": "query_485",
@@ -9540,7 +10027,8 @@
         [
           "Darling's_Waterfront_Pavilion.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Waterfront Park"
     },
     {
       "query_id": "query_486",
@@ -9552,7 +10040,8 @@
         [
           "Archie_Andrews.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "John L. Goldwater, Bob Montana, and Vic Bloom"
     },
     {
       "query_id": "query_487",
@@ -9566,7 +10055,8 @@
           "Adam_Silver.txt_page001_chunk001",
           "Commissioner_of_the_NBA.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Adam Silver"
     },
     {
       "query_id": "query_488",
@@ -9578,7 +10068,8 @@
         [
           "Boxing_at_the_2012_Summer_Olympics.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "London"
     },
     {
       "query_id": "query_489",
@@ -9590,7 +10081,8 @@
         [
           "George_Air_Force_Base.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "George Air Force Base"
     },
     {
       "query_id": "query_490",
@@ -9602,7 +10094,8 @@
         [
           "George_S._Patton.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "U.S. Third Army; France and Germany."
     },
     {
       "query_id": "query_491",
@@ -9614,7 +10107,8 @@
         [
           "Boeing_777X.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "777-8 and 777-9"
     },
     {
       "query_id": "query_492",
@@ -9626,7 +10120,8 @@
         [
           "Battle_of_Cambrai_(1918).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Hundred Days Offensive"
     },
     {
       "query_id": "query_493",
@@ -9638,7 +10133,8 @@
         [
           "Freedom_Hall.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The Kentucky Colonels (ABA)."
     },
     {
       "query_id": "query_494",
@@ -9650,7 +10146,8 @@
         [
           "Also_sprach_Zarathustra_(Strauss).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "27 November 1896; Frankfurt; conducted by Richard Strauss."
     },
     {
       "query_id": "query_495",
@@ -9662,7 +10159,8 @@
         [
           "Assassination_of_William_McKinley.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "September 6, 1901; Buffalo, New York"
     },
     {
       "query_id": "query_496",
@@ -9674,7 +10172,8 @@
         [
           "Glen_Iris_Inn.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "On the top of a cliff overlooking Middle Falls in Letchworth State Park, New York State, USA"
     },
     {
       "query_id": "query_497",
@@ -9686,7 +10185,8 @@
         [
           "Game_39.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "20"
     },
     {
       "query_id": "query_498",
@@ -9698,7 +10198,8 @@
         [
           "Collision_in_Korea.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "April 28 and 29, 1995"
     },
     {
       "query_id": "query_499",
@@ -9710,7 +10211,8 @@
         [
           "Goats_Head_Soup.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Goats Head Soup"
     },
     {
       "query_id": "query_500",
@@ -9722,7 +10224,8 @@
         [
           "Fort_Snelling.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Minnesota and Mississippi Rivers"
     },
     {
       "query_id": "query_501",
@@ -9734,7 +10237,8 @@
         [
           "Guarani_language.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Endonym: avañe'ẽ; meaning: the people's language."
     },
     {
       "query_id": "query_502",
@@ -9746,7 +10250,8 @@
         [
           "2018_NBA_All-Star_Game.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Staples Center"
     },
     {
       "query_id": "query_503",
@@ -9760,7 +10265,8 @@
           "EFL_Cup.txt_page001_chunk001",
           "Game_39.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Premier League, Championship, League One and League Two"
     },
     {
       "query_id": "query_504",
@@ -9774,7 +10280,8 @@
           "Adam_Silver.txt_page001_chunk001",
           "Commissioner_of_the_NBA.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Adam Silver, February 1, 2014"
     },
     {
       "query_id": "query_505",
@@ -9786,7 +10293,8 @@
         [
           "Also_sprach_Zarathustra_(Strauss).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "First performance (premiere) of Also sprach Zarathustra in Frankfurt, conducted by Richard Strauss"
     },
     {
       "query_id": "query_506",
@@ -9798,7 +10306,8 @@
         [
           "Black_Star_(fragrance).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "30"
     },
     {
       "query_id": "query_507",
@@ -9810,7 +10319,8 @@
         [
           "BayArena.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Leverkusen, North Rhine-Westphalia, Germany"
     },
     {
       "query_id": "query_508",
@@ -9822,7 +10332,8 @@
         [
           "DISCLOSE_Act.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The Democracy Is Strengthened by Casting Light On Spending in Elections Act"
     },
     {
       "query_id": "query_509",
@@ -9834,7 +10345,8 @@
         [
           "Game_39.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "38 games"
     },
     {
       "query_id": "query_510",
@@ -9846,7 +10358,8 @@
         [
           "Beat_It.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "February 14, 1983"
     },
     {
       "query_id": "query_511",
@@ -9858,7 +10371,8 @@
         [
           "Archie_Andrews.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "John L. Goldwater (publisher), Bob Montana (artist), and Vic Bloom (writer)."
     },
     {
       "query_id": "query_512",
@@ -9872,7 +10386,8 @@
           "A_Perfect_Murder.txt_page001_chunk001",
           "Dial_M_for_Murder.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dial M for Murder, directed by Alfred Hitchcock"
     },
     {
       "query_id": "query_513",
@@ -9884,7 +10399,8 @@
         [
           "Archie_Andrews.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1941"
     },
     {
       "query_id": "query_514",
@@ -9896,7 +10412,8 @@
         [
           "Drunken_Master_II.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Lau Kar-leung and Jackie Chan"
     },
     {
       "query_id": "query_515",
@@ -9908,7 +10425,8 @@
         [
           "Eyes_Wide_Shut.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Author: Arthur Schnitzler; Title: Traumnovelle (Dream Story); Year: 1926; Relationship: Eyes Wide Shut is based on this novella"
     },
     {
       "query_id": "query_516",
@@ -9920,7 +10438,8 @@
         [
           "Also_sprach_Zarathustra_(Strauss).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "27 November 1896, Frankfurt"
     },
     {
       "query_id": "query_517",
@@ -9932,7 +10451,8 @@
         [
           "Galleria_Vittorio_Emanuele_II.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "12"
     },
     {
       "query_id": "query_518",
@@ -9944,7 +10464,8 @@
         [
           "Attack_on_Pearl_Harbor_in_popular_culture.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "By boat from the naval base at Pearl Harbor."
     },
     {
       "query_id": "query_519",
@@ -9956,7 +10477,8 @@
         [
           "Government_of_Canada.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Constitution Act, 1867; federal constitutional monarchy"
     },
     {
       "query_id": "query_520",
@@ -9968,7 +10490,8 @@
         [
           "Book_of_Judges.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Seventh (the seventh book in both the Hebrew Bible and the Christian Bible)."
     },
     {
       "query_id": "query_521",
@@ -9980,7 +10503,8 @@
         [
           "Andy_Warhol.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Andy Warhol"
     },
     {
       "query_id": "query_522",
@@ -9992,7 +10516,8 @@
         [
           "Al_Gore.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Nobel Peace Prize"
     },
     {
       "query_id": "query_523",
@@ -10004,7 +10529,8 @@
         [
           "Government_of_Canada.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The Constitution Act, 1867 established the current organization as a federal constitutional monarchy; it is the legal basis for Canada’s present government structure."
     },
     {
       "query_id": "query_524",
@@ -10016,7 +10542,8 @@
         [
           "Assassination_of_William_McKinley.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Pan-American Exposition — Temple of Music on the exposition grounds, Buffalo, New York; September 6, 1901."
     },
     {
       "query_id": "query_525",
@@ -10028,7 +10555,8 @@
         [
           "Fort_Snelling.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "the Minnesota River and the Mississippi River"
     },
     {
       "query_id": "query_526",
@@ -10040,7 +10568,8 @@
         [
           "God_Save_the_Queen.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "God Save the Queen (or God Save the King)."
     },
     {
       "query_id": "query_527",
@@ -10054,7 +10583,8 @@
           "Adam_Silver.txt_page001_chunk001",
           "Commissioner_of_the_NBA.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Adam Silver"
     },
     {
       "query_id": "query_528",
@@ -10066,7 +10596,8 @@
         [
           "Chandra_Taal.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Chandra Taal -> Spiti part -> Lahul and Spiti district -> Himachal Pradesh -> India"
     },
     {
       "query_id": "query_529",
@@ -10078,7 +10609,8 @@
         [
           "Ferdinand_Zvonimir_von_Habsburg.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "12"
     },
     {
       "query_id": "query_530",
@@ -10090,7 +10622,8 @@
         [
           "Boulevardier_(cocktail).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Boulevardier"
     },
     {
       "query_id": "query_531",
@@ -10102,7 +10635,8 @@
         [
           "Gibson_(cocktail).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "William Boothby; The World's Drinks And How To Mix Them"
     },
     {
       "query_id": "query_532",
@@ -10114,7 +10648,8 @@
         [
           "Drunken_Master_II.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Drunken Master II"
     },
     {
       "query_id": "query_533",
@@ -10126,7 +10661,8 @@
         [
           "God_Save_the_Queen.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "God Save the Queen"
     },
     {
       "query_id": "query_534",
@@ -10140,7 +10676,8 @@
           "EFL_Cup.txt_page001_chunk001",
           "Game_39.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Championship"
     },
     {
       "query_id": "query_535",
@@ -10152,7 +10689,8 @@
         [
           "Freedom_Hall.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The Kentucky Colonels"
     },
     {
       "query_id": "query_536",
@@ -10164,7 +10702,8 @@
         [
           "Gunnersbury_Park.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Minister of Health"
     },
     {
       "query_id": "query_537",
@@ -10176,7 +10715,8 @@
         [
           "DeSean_Jackson.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "DeSean Jackson; 2010 Pro Bowl as wide receiver and return specialist."
     },
     {
       "query_id": "query_538",
@@ -10188,7 +10728,8 @@
         [
           "Christopher_I_of_Denmark.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Lund Cathedral, Christmas Day 1252"
     },
     {
       "query_id": "query_539",
@@ -10200,7 +10741,8 @@
         [
           "George_S._Patton.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "U.S. Third Army; operated in France and Germany."
     },
     {
       "query_id": "query_540",
@@ -10212,7 +10754,8 @@
         [
           "Chris_Jericho.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Christopher Keith Irvine"
     },
     {
       "query_id": "query_541",
@@ -10224,7 +10767,8 @@
         [
           "Assassination_of_William_McKinley.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Pan-American Exposition (Temple of Music), Buffalo, New York — September 6, 1901."
     },
     {
       "query_id": "query_542",
@@ -10236,7 +10780,8 @@
         [
           "God_Save_the_Queen.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The gender of the reigning monarch (male or female)."
     },
     {
       "query_id": "query_543",
@@ -10248,7 +10793,8 @@
         [
           "DeSean_Jackson.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Two positions"
     },
     {
       "query_id": "query_544",
@@ -10260,7 +10806,8 @@
         [
           "Gro_Harlem_Brundtland.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "3"
     },
     {
       "query_id": "query_545",
@@ -10272,7 +10819,8 @@
         [
           "Atlas_Shrugged_(film_series).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "3 years"
     },
     {
       "query_id": "query_546",
@@ -10284,7 +10832,8 @@
         [
           "Dark_Horse_(George_Harrison_album).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Ravi Shankar"
     },
     {
       "query_id": "query_547",
@@ -10296,7 +10845,8 @@
         [
           "Dupont_Circle.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Connecticut Avenue NW"
     },
     {
       "query_id": "query_548",
@@ -10308,7 +10858,8 @@
         [
           "CFL_on_TSN.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "TSN"
     },
     {
       "query_id": "query_549",
@@ -10320,7 +10871,8 @@
         [
           "Battle_of_Cambrai_(1918).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "British First, Third and Fourth Armies."
     },
     {
       "query_id": "query_550",
@@ -10332,7 +10884,8 @@
         [
           "Glendale,_California.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "About 8 miles to the north"
     },
     {
       "query_id": "query_551",
@@ -10346,7 +10899,8 @@
           "Adam_Silver.txt_page001_chunk001",
           "Commissioner_of_the_NBA.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Adam Silver"
     },
     {
       "query_id": "query_552",
@@ -10358,7 +10912,8 @@
         [
           "Centennial_Olympic_Stadium.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The Atlanta Braves."
     },
     {
       "query_id": "query_553",
@@ -10372,7 +10927,8 @@
           "Bellagio_(resort).txt_page001_chunk001",
           "CityCenter.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Monte Carlo Las Vegas and Bellagio Las Vegas"
     },
     {
       "query_id": "query_554",
@@ -10384,7 +10940,8 @@
         [
           "Colgate_University.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "New York"
     },
     {
       "query_id": "query_555",
@@ -10398,7 +10955,8 @@
           "EFL_Cup.txt_page001_chunk001",
           "Game_39.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Championship"
     },
     {
       "query_id": "query_556",
@@ -10410,7 +10968,8 @@
         [
           "Dismal_Swamp_Canal.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Located along the eastern edge of the Great Dismal Swamp in Virginia and North Carolina, United States, the Dismal Swamp Canal is part of the Intracoastal Waterway."
     },
     {
       "query_id": "query_557",
@@ -10422,7 +10981,8 @@
         [
           "George_H._W._Bush.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1989 to 1993"
     },
     {
       "query_id": "query_558",
@@ -10434,7 +10994,8 @@
         [
           "Freedom_Hall.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1970"
     },
     {
       "query_id": "query_559",
@@ -10446,7 +11007,8 @@
         [
           "1991_Mr._Olympia.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Orlando"
     },
     {
       "query_id": "query_560",
@@ -10458,7 +11020,8 @@
         [
           "Gibson_(cocktail).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1908"
     },
     {
       "query_id": "query_561",
@@ -10470,7 +11033,8 @@
         [
           "Boxing_at_the_2012_Summer_Olympics.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "28 July 2012 to 12 August 2012"
     },
     {
       "query_id": "query_562",
@@ -10484,7 +11048,8 @@
           "Bellagio_(resort).txt_page001_chunk001",
           "CityCenter.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Monte Carlo Las Vegas and Bellagio Las Vegas."
     },
     {
       "query_id": "query_563",
@@ -10496,7 +11061,8 @@
         [
           "E-Borders.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "April"
     },
     {
       "query_id": "query_564",
@@ -10510,7 +11076,8 @@
           "Armstrong_and_Miller.txt_page001_chunk001",
           "Ben_Miller.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Alexander Armstrong"
     },
     {
       "query_id": "query_565",
@@ -10522,7 +11089,8 @@
         [
           "Eyes_Wide_Shut.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Traumnovelle"
     },
     {
       "query_id": "query_566",
@@ -10534,7 +11102,8 @@
         [
           "Aladdin_(2019_film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1992"
     },
     {
       "query_id": "query_567",
@@ -10546,7 +11115,8 @@
         [
           "Godiva_Chocolatier.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Yıldız Holding; Turkish"
     },
     {
       "query_id": "query_568",
@@ -10558,7 +11128,8 @@
         [
           "Clement_Attlee.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1945"
     },
     {
       "query_id": "query_569",
@@ -10570,7 +11141,8 @@
         [
           "2017_Brit_Awards.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Troxy, London"
     },
     {
       "query_id": "query_570",
@@ -10582,7 +11154,8 @@
         [
           "Battle_of_Cambrai_(1918).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "First World War"
     },
     {
       "query_id": "query_571",
@@ -10594,7 +11167,8 @@
         [
           "Craig_v._Boren.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Craig v. Boren, 429 U.S. 190 (1976)."
     },
     {
       "query_id": "query_572",
@@ -10606,7 +11180,8 @@
         [
           "Dupont_Circle.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dupont Circle"
     },
     {
       "query_id": "query_573",
@@ -10618,7 +11193,8 @@
         [
           "Bernard_Lovell.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "35 years"
     },
     {
       "query_id": "query_574",
@@ -10630,7 +11206,8 @@
         [
           "2007_Brownlow_Medal.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Jimmy Bartel"
     },
     {
       "query_id": "query_575",
@@ -10642,7 +11219,8 @@
         [
           "Chelsea,_Manhattan.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Hell's Kitchen"
     },
     {
       "query_id": "query_576",
@@ -10654,7 +11232,8 @@
         [
           "Centennial_Olympic_Stadium.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "20 seasons"
     },
     {
       "query_id": "query_577",
@@ -10666,7 +11245,8 @@
         [
           "1962_Italian_Grand_Prix.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "7/9"
     },
     {
       "query_id": "query_578",
@@ -10678,7 +11258,8 @@
         [
           "Gro_Harlem_Brundtland.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "3"
     },
     {
       "query_id": "query_579",
@@ -10692,7 +11273,8 @@
           "Creature_from_the_Black_Lagoon.txt_page001_chunk001",
           "Eucritta.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1954"
     },
     {
       "query_id": "query_580",
@@ -10704,7 +11286,8 @@
         [
           "Centennial_Olympic_Stadium.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Yes."
     },
     {
       "query_id": "query_581",
@@ -10716,7 +11299,8 @@
         [
           "Assassination_of_William_McKinley.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "September 6, 1901"
     },
     {
       "query_id": "query_582",
@@ -10728,7 +11312,8 @@
         [
           "Blue_Ridge_Music_Center.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "4 hours"
     },
     {
       "query_id": "query_583",
@@ -10740,7 +11325,8 @@
         [
           "George_C._Hale.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "73 years old"
     },
     {
       "query_id": "query_584",
@@ -10754,7 +11340,8 @@
           "A_Perfect_Murder.txt_page001_chunk001",
           "Dial_M_for_Murder.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Dial M for Murder"
     },
     {
       "query_id": "query_585",
@@ -10766,7 +11353,8 @@
         [
           "Craig_v._Boren.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Craig v. Boren"
     },
     {
       "query_id": "query_586",
@@ -10778,7 +11366,8 @@
         [
           "Atlas_Shrugged_(film_series).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1"
     },
     {
       "query_id": "query_587",
@@ -10790,7 +11379,8 @@
         [
           "Freedom_Hall.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Freedom Hall"
     },
     {
       "query_id": "query_588",
@@ -10802,7 +11392,8 @@
         [
           "George_S._Patton.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "U.S. Third Army; France and Germany; Allied invasion of Normandy in June 1944."
     },
     {
       "query_id": "query_589",
@@ -10814,7 +11405,8 @@
         [
           "Hacking_Democracy.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "2006"
     },
     {
       "query_id": "query_590",
@@ -10826,7 +11418,8 @@
         [
           "God_Save_the_Queen.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The title is determined by the gender of the reigning monarch: it uses 'God Save the Queen' when the monarch is female and 'God Save the King' when the monarch is male."
     },
     {
       "query_id": "query_591",
@@ -10838,7 +11431,8 @@
         [
           "Archie_Andrews.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1941"
     },
     {
       "query_id": "query_592",
@@ -10850,7 +11444,8 @@
         [
           "Ferenc_Puskás_Stadium_(1953).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Budapest"
     },
     {
       "query_id": "query_593",
@@ -10862,7 +11457,8 @@
         [
           "E-Borders.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Damian Green"
     },
     {
       "query_id": "query_594",
@@ -10874,7 +11470,8 @@
         [
           "Avro_Vulcan.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Jet-powered propulsion"
     },
     {
       "query_id": "query_595",
@@ -10886,7 +11483,8 @@
         [
           "George_S._Patton.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "General George S. Patton Jr."
     },
     {
       "query_id": "query_596",
@@ -10898,7 +11496,8 @@
         [
           "50–40–90_club.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The season-long benchmarks are 50% field-goal percentage, 40% three-point percentage, and 90% free-throw percentage over an entire NBA regular season, and entry requires the NBA minimum number of makes in each category."
     },
     {
       "query_id": "query_597",
@@ -10910,7 +11509,8 @@
         [
           "Agrippina_(opera).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Claudius and Nero"
     },
     {
       "query_id": "query_598",
@@ -10922,7 +11522,8 @@
         [
           "Government_of_Canada.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Federal constitutional monarchy; Constitution Act, 1867."
     },
     {
       "query_id": "query_599",
@@ -10934,7 +11535,8 @@
         [
           "Bartlett's_Bridge.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Clara Barton Road and the French River"
     },
     {
       "query_id": "query_600",
@@ -10946,7 +11548,8 @@
         [
           "Airbus_A350_XWB.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "86"
     },
     {
       "query_id": "query_601",
@@ -10958,7 +11561,8 @@
         [
           "Assassination_of_William_McKinley.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Buffalo, New York; Pan-American Exposition"
     },
     {
       "query_id": "query_602",
@@ -10970,7 +11574,8 @@
         [
           "2018_NBA_All-Star_Game.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Staples Center"
     },
     {
       "query_id": "query_603",
@@ -10982,7 +11587,8 @@
         [
           "Game_39.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "38"
     },
     {
       "query_id": "query_604",
@@ -10994,7 +11600,8 @@
         [
           "50–40–90_club.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Yes, they would qualify for the 50–40–90 club."
     },
     {
       "query_id": "query_605",
@@ -11006,7 +11613,8 @@
         [
           "Bridal_Chorus.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Lohengrin"
     },
     {
       "query_id": "query_606",
@@ -11018,7 +11626,8 @@
         [
           "Georgia_International_Convention_Center.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The ATL Skytrain connection from the Airport MARTA station."
     },
     {
       "query_id": "query_607",
@@ -11030,7 +11639,8 @@
         [
           "Dana_White's_Tuesday_Night_Contender_Series.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "May 2017"
     },
     {
       "query_id": "query_608",
@@ -11042,7 +11652,8 @@
         [
           "Boxing_at_the_2012_Summer_Olympics.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "London"
     },
     {
       "query_id": "query_609",
@@ -11056,7 +11667,8 @@
           "Frozen_(2013_film).txt_page001_chunk001",
           "Frozen_2.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Frozen 2 is a sequel to Frozen"
     },
     {
       "query_id": "query_610",
@@ -11068,7 +11680,8 @@
         [
           "Cat_Power.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Charlyn Marie Marshall"
     },
     {
       "query_id": "query_611",
@@ -11080,7 +11693,8 @@
         [
           "Gerald_R._Ford_International_Airport.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Approximately 13 miles southeast of Grand Rapids, Michigan"
     },
     {
       "query_id": "query_612",
@@ -11092,7 +11706,8 @@
         [
           "Bartlett's_Bridge.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Bartlett's Bridge"
     },
     {
       "query_id": "query_613",
@@ -11104,7 +11719,8 @@
         [
           "Flexible-fuel_vehicle.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Fuel injection and spark timing."
     },
     {
       "query_id": "query_614",
@@ -11116,7 +11732,8 @@
         [
           "Archie_Andrews.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Vic Bloom"
     },
     {
       "query_id": "query_615",
@@ -11128,7 +11745,8 @@
         [
           "Arsenal_F.C._in_European_football.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Arsenal, 2006"
     },
     {
       "query_id": "query_616",
@@ -11140,7 +11758,8 @@
         [
           "Douglas_SBD_Dauntless.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Douglas Aircraft"
     },
     {
       "query_id": "query_617",
@@ -11152,7 +11771,8 @@
         [
           "1932_Allan_Cup.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Team: Toronto National Sea Fleas; City: Prague, Czechoslovakia"
     },
     {
       "query_id": "query_618",
@@ -11164,7 +11784,8 @@
         [
           "Boyz_n_da_Hood.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "5"
     },
     {
       "query_id": "query_619",
@@ -11176,7 +11797,8 @@
         [
           "George_Atzerodt.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "30 years old"
     },
     {
       "query_id": "query_620",
@@ -11188,7 +11810,8 @@
         [
           "George_S._Patton.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The Allied invasion of Normandy; June 1944."
     },
     {
       "query_id": "query_621",
@@ -11202,7 +11825,8 @@
           "Anti_(album).txt_page001_chunk001",
           "Desperado_(Rihanna_song).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Eighth (8th) studio album."
     },
     {
       "query_id": "query_622",
@@ -11214,7 +11838,8 @@
         [
           "Government_of_Canada.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "federal constitutional monarchy"
     },
     {
       "query_id": "query_623",
@@ -11226,7 +11851,8 @@
         [
           "Avatar_Flight_of_Passage.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Land: Pandora – The World of Avatar. Park: Disney's Animal Kingdom."
     },
     {
       "query_id": "query_624",
@@ -11238,7 +11864,8 @@
         [
           "Game_39.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "38"
     },
     {
       "query_id": "query_625",
@@ -11250,7 +11877,8 @@
         [
           "George_Atzerodt.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "30 years old"
     },
     {
       "query_id": "query_626",
@@ -11262,7 +11890,8 @@
         [
           "A55_road.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Britannia Bridge"
     },
     {
       "query_id": "query_627",
@@ -11274,7 +11903,8 @@
         [
           "Bluebeard's_Castle.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Two singing characters appear onstage: Bluebeard and Judith."
     },
     {
       "query_id": "query_628",
@@ -11286,7 +11916,8 @@
         [
           "Donald_Trump_presidential_campaign,_2016.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "November 8, 2016"
     },
     {
       "query_id": "query_629",
@@ -11298,7 +11929,8 @@
         [
           "E-Borders.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "By April 2012, E-Borders would collect information on all passengers (and crew) on non-EEA flights to the UK, with passenger details checked against watch lists, collected by airlines and other carriers and passed to the e-Borders programme."
     },
     {
       "query_id": "query_630",
@@ -11310,7 +11942,8 @@
         [
           "God_Save_the_Queen.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The gender of the reigning monarch determines the title: 'God Save the Queen' for a female monarch and 'God Save the King' for a male monarch."
     },
     {
       "query_id": "query_631",
@@ -11322,7 +11955,8 @@
         [
           "Fort_Bragg.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Cumberland, Hoke, Harnett, Moore"
     },
     {
       "query_id": "query_632",
@@ -11334,7 +11968,8 @@
         [
           "Ethiopian_Airlines_accidents_and_incidents.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "322:60 (approximately 5.37:1)"
     },
     {
       "query_id": "query_633",
@@ -11346,7 +11981,8 @@
         [
           "Ckm_wz._25_Hotchkiss.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Heavy machine gun, Mark 1925, Hotchkiss"
     },
     {
       "query_id": "query_634",
@@ -11358,7 +11994,8 @@
         [
           "1974_South_African_Grand_Prix.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "12"
     },
     {
       "query_id": "query_635",
@@ -11370,7 +12007,8 @@
         [
           "Gibson_(cocktail).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "William Boothby"
     },
     {
       "query_id": "query_636",
@@ -11382,7 +12020,8 @@
         [
           "Government_of_Canada.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Constitution Act, 1867"
     },
     {
       "query_id": "query_637",
@@ -11394,7 +12033,8 @@
         [
           "50–40–90_club.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "No—the definition requires performance during an entire NBA regular season, not postseason play."
     },
     {
       "query_id": "query_638",
@@ -11406,7 +12046,8 @@
         [
           "Game_39.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "38"
     },
     {
       "query_id": "query_639",
@@ -11418,7 +12059,8 @@
         [
           "Assassination_of_William_McKinley.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Pan-American Exposition at the Temple of Music, Buffalo, New York"
     },
     {
       "query_id": "query_640",
@@ -11430,7 +12072,8 @@
         [
           "Antichrist_(film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "6"
     },
     {
       "query_id": "query_641",
@@ -11442,7 +12085,8 @@
         [
           "Aktion_T4.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "'T4' stands for Tiergartenstraße 4, located in the Berlin borough of Tiergarten."
     },
     {
       "query_id": "query_642",
@@ -11454,7 +12098,8 @@
         [
           "Akili_Smith.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Cincinnati Bengals"
     },
     {
       "query_id": "query_643",
@@ -11466,7 +12111,8 @@
         [
           "Atlas_Shrugged_(film_series).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "3 years"
     },
     {
       "query_id": "query_644",
@@ -11478,7 +12124,8 @@
         [
           "E-Borders.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Damian Green"
     },
     {
       "query_id": "query_645",
@@ -11490,7 +12137,8 @@
         [
           "Field_marshal_(United_Kingdom).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Field Marshal"
     },
     {
       "query_id": "query_646",
@@ -11502,7 +12150,8 @@
         [
           "Arsenal_F.C._in_European_football.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Arsenal, 2006."
     },
     {
       "query_id": "query_647",
@@ -11514,7 +12163,8 @@
         [
           "Aloysia.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Maria Luisa of Parma"
     },
     {
       "query_id": "query_648",
@@ -11526,7 +12176,8 @@
         [
           "Centennial_Olympic_Stadium.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The Atlanta Braves."
     },
     {
       "query_id": "query_649",
@@ -11538,7 +12189,8 @@
         [
           "Edge_(magazine).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Edge"
     },
     {
       "query_id": "query_650",
@@ -11550,7 +12202,8 @@
         [
           "El_Paso_International_Airport.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "About 4 miles (6 km) northeast."
     },
     {
       "query_id": "query_651",
@@ -11562,7 +12215,8 @@
         [
           "Frederick_I,_Holy_Roman_Emperor.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "35 years"
     },
     {
       "query_id": "query_652",
@@ -11576,7 +12230,8 @@
           "Battle_of_Hong_Kong.txt_page001_chunk001",
           "Gin_Drinkers_Line.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "18"
     },
     {
       "query_id": "query_653",
@@ -11588,7 +12243,8 @@
         [
           "Chicago,_Milwaukee,_St._Paul_and_Pacific_Railroad.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1897; Yes, it was still operating then"
     },
     {
       "query_id": "query_654",
@@ -11600,7 +12256,8 @@
         [
           "Betsy_Ross_Bridge.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "5"
     },
     {
       "query_id": "query_655",
@@ -11612,7 +12269,8 @@
         [
           "Figure_2_Ranch_Airport.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Van Horn, Texas"
     },
     {
       "query_id": "query_656",
@@ -11624,7 +12282,8 @@
         [
           "Carry_On_(franchise).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "34 years"
     },
     {
       "query_id": "query_657",
@@ -11636,7 +12295,8 @@
         [
           "Game_39.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "38"
     },
     {
       "query_id": "query_658",
@@ -11648,7 +12308,8 @@
         [
           "1974_South_African_Grand_Prix.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "2/15"
     },
     {
       "query_id": "query_659",
@@ -11660,7 +12321,8 @@
         [
           "2010–11_Copa_del_Rey.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Two calendar years (2010 and 2011)."
     },
     {
       "query_id": "query_660",
@@ -11672,7 +12334,8 @@
         [
           "Big_Red_(drink).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Waco, Texas"
     },
     {
       "query_id": "query_661",
@@ -11684,7 +12347,8 @@
         [
           "2017_Brit_Awards.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Brits Icon Award"
     },
     {
       "query_id": "query_662",
@@ -11696,7 +12360,8 @@
         [
           "Casey_Jr._Splash_'n'_Soak_Station.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Fantasyland section of the Walt Disney World Resort in Bay Lake, Florida"
     },
     {
       "query_id": "query_663",
@@ -11708,7 +12373,8 @@
         [
           "50–40–90_club.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Yes, the player qualifies for the 50–40–90 club."
     },
     {
       "query_id": "query_664",
@@ -11720,7 +12386,8 @@
         [
           "Akira_(1988_film).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Akira is a 1988 Japanese adult animated science fiction film."
     },
     {
       "query_id": "query_665",
@@ -11732,7 +12399,8 @@
         [
           "Gro_Harlem_Brundtland.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "The third term (1990–1996)."
     },
     {
       "query_id": "query_666",
@@ -11744,7 +12412,8 @@
         [
           "Agent_Carter_(TV_series).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Christopher Markus and Stephen McFeely"
     },
     {
       "query_id": "query_667",
@@ -11756,7 +12425,8 @@
         [
           "Buddy_(dog).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "4"
     },
     {
       "query_id": "query_668",
@@ -11770,7 +12440,8 @@
           "Edvard_Grieg.txt_page001_chunk001",
           "Grieg_(crater).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "64 years old"
     },
     {
       "query_id": "query_669",
@@ -11782,7 +12453,8 @@
         [
           "Argand_lamp.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "5"
     },
     {
       "query_id": "query_670",
@@ -11794,7 +12466,8 @@
         [
           "Clement_Attlee.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "6 years"
     },
     {
       "query_id": "query_671",
@@ -11808,7 +12481,8 @@
           "A_Perfect_Murder.txt_page001_chunk001",
           "Dial_M_for_Murder.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "A Perfect Murder is a modern remake of Alfred Hitchcock's 1954 film Dial M for Murder"
     },
     {
       "query_id": "query_672",
@@ -11820,7 +12494,8 @@
         [
           "Frankston_railway_line.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1"
     },
     {
       "query_id": "query_673",
@@ -11832,7 +12507,8 @@
         [
           "Boxing_at_the_2012_Summer_Olympics.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "28 July 2012"
     },
     {
       "query_id": "query_674",
@@ -11844,7 +12520,8 @@
         [
           "Felipe_Calderón.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "7"
     },
     {
       "query_id": "query_675",
@@ -11856,7 +12533,8 @@
         [
           "2006_World_Outgames.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Canada"
     },
     {
       "query_id": "query_676",
@@ -11868,7 +12546,8 @@
         [
           "Casey_Jr._Splash_'n'_Soak_Station.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Fantasyland; Walt Disney World"
     },
     {
       "query_id": "query_677",
@@ -11880,7 +12559,8 @@
         [
           "Assassination_of_William_McKinley.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Pan-American Exposition, Buffalo, New York"
     },
     {
       "query_id": "query_678",
@@ -11892,7 +12572,8 @@
         [
           "Commanders_for_Israel's_Security.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "An Israeli movement of ex-senior security officials."
     },
     {
       "query_id": "query_679",
@@ -11904,7 +12585,8 @@
         [
           "45th_Infantry_Division_(United_States).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "48 years"
     },
     {
       "query_id": "query_680",
@@ -11916,7 +12598,8 @@
         [
           "Drunken_Master_II.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Lau Kar-leung and Jackie Chan"
     },
     {
       "query_id": "query_681",
@@ -11928,7 +12611,8 @@
         [
           "Government_of_Canada.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Constitution Act, 1867; federal constitutional monarchy (within Westminster-style parliamentary democracy)"
     },
     {
       "query_id": "query_682",
@@ -11940,7 +12624,8 @@
         [
           "Guerra_de_Titanes_(2009).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "2003"
     },
     {
       "query_id": "query_683",
@@ -11952,7 +12637,8 @@
         [
           "FIA_GT1_World_Championship.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "3"
     },
     {
       "query_id": "query_684",
@@ -11964,7 +12650,8 @@
         [
           "Big_Red_(drink).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "1937"
     },
     {
       "query_id": "query_685",
@@ -11976,7 +12663,8 @@
         [
           "45th_Infantry_Division_(United_States).txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "48 years"
     },
     {
       "query_id": "query_686",
@@ -11988,7 +12676,8 @@
         [
           "Acela_Express.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "About 11 minutes (11.2 minutes exact)"
     },
     {
       "query_id": "query_687",
@@ -12002,7 +12691,8 @@
           "EFL_Cup.txt_page001_chunk001",
           "Game_39.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "3"
     },
     {
       "query_id": "query_688",
@@ -12014,7 +12704,8 @@
         [
           "Casey_Jr._Splash_'n'_Soak_Station.txt_page001_chunk001"
         ]
-      ]
+      ],
+      "answer": "Florida"
     }
   ],
   "corpus": {
