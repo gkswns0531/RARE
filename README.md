@@ -11,7 +11,7 @@ RARE is a step-by-step framework to generate redundancy-aware RAG evaluation dat
 - Bulk OpenAI Embeddings and threaded LLM calls
 - Retry with exponential backoff for API robustness
 - Progress bar for long-running steps
-- Top-K per-document filtering to reduce cost
+- Top-K per-chunk filtering to reduce cost
 - Atomic information extraction, redundancy mapping, and question generation
 
 ## Pipeline Steps
@@ -45,7 +45,7 @@ python run_complete_pipeline.py --input examples/ --steps parsing chunking
 python run_complete_pipeline.py --steps atomic_info_extraction atomic_info_selection embedding_similarity redundancy_detection
 python run_complete_pipeline.py --steps data_generation --num-samples 5
 python run_complete_pipeline.py --input document.pdf --num-samples 10
-python run_complete_pipeline.py --steps redundancy_detection --top-k-per-doc 1
+python run_complete_pipeline.py --steps redundancy_detection --top-k-per-chunk 1
 ```
 
 ## Repository Layout
@@ -120,7 +120,7 @@ result = run_rare_pipeline(
     steps=["redundancy_detection"],
     output_dir="results",
     max_workers=1024,
-    top_k_per_document=1,
+    top_k_per_chunk=1,
 )
 
 print(f"Total cost: ${result.cost_summary.total_cost_usd:.6f}")
@@ -213,10 +213,9 @@ Detecting redundancies: 100%|████████| 44/44 [02:15<00:00, 0.32a
 # Larger chunk size for higher throughput
 --chunk-size 1024
 
-# Save cost with Top-K per document
---top-k-per-doc 1
---top-k-per-doc 2
---top-k-per-doc 3
+# Save cost with Top-K per chunk (default: 3)
+--top-k-per-chunk 1
+--top-k-per-chunk 2
 
 # Adjust embedding batch size (code-level)
 batch_size=500  # SearchClient._get_bulk_embeddings()
@@ -230,8 +229,8 @@ python run_complete_pipeline.py --input large_doc.pdf
 # Process embeddings in one API call when possible
 python run_complete_pipeline.py --steps embedding_similarity
 
-# Save ~90% cost with Top-1 per document
-python run_complete_pipeline.py --steps redundancy_detection --top-k-per-doc 1
+# Fewer redundancy detection targets with Top-1 per chunk
+python run_complete_pipeline.py --steps redundancy_detection --top-k-per-chunk 1
 ```
 
 ## Result schema

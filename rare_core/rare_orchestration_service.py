@@ -210,7 +210,6 @@ def run_rare_pipeline(
     chunk_size: int = STEP2_SETTINGS.chunk_size,
     chunk_overlap: int = STEP2_SETTINGS.overlap,
     max_workers: int = STEP3_SETTINGS.workers,
-    top_k_per_document: int = None,
     top_k_per_chunk: int = STEP6_SETTINGS.top_k_per_chunk,
     step7_generation_model: str = STEP7_SETTINGS.generation_model,
     step7_filter_model: str = STEP7_SETTINGS.filter_model,
@@ -319,7 +318,7 @@ def run_rare_pipeline(
                     ]
                 result_data["embeddings"] = orchestrator.step5_build_embeddings(
                     atomic_info_for_embedding,
-                    similarity_threshold=STEP5_SETTINGS.similarity_threshold,
+                    similarity_threshold=similarity_threshold_value,
                     auto_threshold_batch_size=STEP5_SETTINGS.auto_threshold_batch_size,
                     embedding_batch_size=STEP5_SETTINGS.batch_size,
                     similarity_only=STEP5_SETTINGS.similarity_only,
@@ -332,7 +331,7 @@ def run_rare_pipeline(
 
                 result_data["embeddings"] = orchestrator.step5_build_embeddings(
                     result_data["atomic_info_map"],
-                    similarity_threshold=STEP5_SETTINGS.similarity_threshold,
+                    similarity_threshold=similarity_threshold_value,
                     auto_threshold_batch_size=STEP5_SETTINGS.auto_threshold_batch_size,
                     embedding_batch_size=STEP5_SETTINGS.batch_size,
                     similarity_only=STEP5_SETTINGS.similarity_only,
@@ -925,7 +924,7 @@ class RareOrchestrator:
         
         for chunk_id, atomic_list in atomic_info_map.items():
             # Get document content and title for this chunk
-            file_name = chunk_id.split('_')[0] if '_' in chunk_id else chunk_id
+            file_name = "_".join(chunk_id.split("_")[:-2]) if "_" in chunk_id else chunk_id
             doc_content = chunk_lookup.get(file_name, "")
             doc_title = file_name  # Use actual file name as title
             
@@ -2050,7 +2049,7 @@ class RareOrchestrator:
         with open(output_file_json, 'w', encoding='utf-8') as f:
             json.dump({
                 "embeddings_shape": list(search_client.doc_embeddings.shape),
-                "similarity_threshold": self.similarity_threshold,
+                "similarity_threshold": similarity_threshold,
                 "total_atomic_info": len(all_atomic_info)
             }, f, ensure_ascii=False, indent=2)
         
@@ -2123,6 +2122,8 @@ class RareOrchestrator:
             step_root_dir = embeddings_file_path.parent.parent
             step4_dir = step_root_dir / "step4_output"
             step4_file_candidates = [
+                # run_complete_pipeline.py writes every step into one directory
+                embeddings_file_path.parent / "step4_selected_atomic_info.json",
                 step4_dir / "step4_selected_atomic_info.json",
                 step4_dir / "selected_atomic_info.json",
             ]
@@ -2359,7 +2360,8 @@ class RareOrchestrator:
         # Log statistics
         unique_count = sum(1 for r in redundancy_results.values() if r.redundant_items == ["unique"])
         redundant_count = len(redundancy_results) - unique_count
-        logger.info(f"[RARE Step 6] Completed - Unique: {unique_count}, Redundant: {redundant_count}, saved to {output_file}")
+        skipped_count = len(target_atomic_info) - len(redundancy_results)
+        logger.info(f"[RARE Step 6] Completed - Unique: {unique_count}, Redundant: {redundant_count}, Skipped (judgment failed): {skipped_count}, saved to {output_file}")
         
         return redundancy_results
     
@@ -3057,7 +3059,14 @@ class RareOrchestrator:
                 num_comparisons=len(comparison_items)
             )
             
-            response = self.llm_client.call_api(prompt, model=model)
+            # Retry until every comparison item has a judgment, like the other batch judgments
+            response = self.llm_client.call_api_with_score_validation(
+                prompt=prompt,
+                validation_type='detect_semantic_redundancy',
+                expected_count=len(comparison_items),
+                model=model,
+                max_retries=3
+            )
             parsed_response = clean_and_parse_json(response)
             
             redundant_ids = []
@@ -3073,7 +3082,8 @@ class RareOrchestrator:
             
         except Exception as e:
             logger.error(f"[RARE] Error verifying semantic redundancy: {e}")
-            return []
+            # An unverified item is not unique; the Step 6 worker skips it instead
+            raise
     
     def _generate_evaluation_item(
         self,
@@ -3842,22 +3852,8 @@ class RareOrchestrator:
             
         except Exception as e:
             logger.error(f"[RARE MULTIHOP] Logical filtering error: {str(e)}")
-            # Return in consistent format even on error
-            return {
-                'valid_questions': questions,
-                'detailed_stats': {
-                    'context_assumption_errors': 0,
-                    'circular_definition_errors': 0,
-                    'information_completeness_errors': 0,
-                    'question_ambiguity_errors': 0
-                },
-                'filtered_questions_by_type': {
-                    'context_assumption_errors': [],
-                    'circular_definition_errors': [],
-                    'information_completeness_errors': [],
-                    'question_ambiguity_errors': []
-                }
-            }
+            # Unchecked questions must not pass; the caller records them as failed
+            return []
 
     def _format_questions_for_validation(self, questions: List[Dict]) -> str:
         """Format questions for validation prompt"""
@@ -4661,9 +4657,7 @@ class RareOrchestrator:
             redundant_chunk_ids = {mapping.chunk_id}
             if mapping.redundant_items != ["unique"]:
                 for redundant_id in mapping.redundant_items:
-                    redundant_mapping = redundancy_mapping.get(redundant_id)
-                    if redundant_mapping:
-                        redundant_chunk_ids.add(redundant_mapping.chunk_id)
+                    redundant_chunk_ids.add(self._step7_redundant_chunk_id(redundant_id, redundancy_mapping))
 
             redundancy_count = len(redundant_chunk_ids) - 1
             all_items.append(
@@ -5212,14 +5206,24 @@ class RareOrchestrator:
             redundant_items = item.get("redundant_items", [])
             if redundant_items != ["unique"]:
                 for redundant_id in redundant_items:
-                    redundant_mapping = redundancy_mapping.get(redundant_id)
-                    if redundant_mapping:
-                        related_chunks.add(redundant_mapping.chunk_id)
+                    related_chunks.add(self._step7_redundant_chunk_id(redundant_id, redundancy_mapping))
 
             chunk_list = sorted(related_chunks)
             if chunk_list:
                 gold_chunks.append(chunk_list)
         return gold_chunks
+
+    def _step7_redundant_chunk_id(
+        self,
+        redundant_id: str,
+        redundancy_mapping: Dict[str, RedundancyMapping],
+    ) -> str:
+        # Step 6 judges only the top-k atomic info per chunk, so a redundant item is often
+        # missing from the mapping; its ID is still "{chunk_id}_atomic_{i:03d}"
+        redundant_mapping = redundancy_mapping.get(redundant_id)
+        if redundant_mapping:
+            return redundant_mapping.chunk_id
+        return redundant_id.rsplit("_atomic_", 1)[0]
 
     def _convert_chunks_to_dict(self, chunks: List[Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
         chunk_data: Dict[str, Dict[str, Any]] = {}

@@ -65,8 +65,6 @@ def main():
     # Performance options
     parser.add_argument("--max-workers", type=int, default=1024,
                        help="Number of parallel workers for atomic info extraction (default: 1024)")
-    parser.add_argument("--top-k-per-doc", type=int, default=None,
-                       help="Only process top-k atomic info per document for redundancy detection (default: None = all)")
     parser.add_argument("--top-k-per-chunk", type=int, default=3,
                        help="Step 6: Number of redundancy detection targets per chunk (default: 3)")
     
@@ -127,7 +125,6 @@ def main():
             chunk_size=args.chunk_size,
             chunk_overlap=args.chunk_overlap,
             max_workers=args.max_workers,
-            top_k_per_document=args.top_k_per_doc,
             top_k_per_chunk=args.top_k_per_chunk,
             step7_generation_model=args.step7_generation_model,
             step7_filter_model=args.step7_filter_model,

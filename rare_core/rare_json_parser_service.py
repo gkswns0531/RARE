@@ -84,11 +84,6 @@ def _try_parse_v2_specific_fields(llm_response: str) -> Any:
                         result[key] = parsed_array
                     except json.JSONDecodeError:
                         result[key] = value
-                # Handle numbers
-                    try:
-                        result[key] = int(value)
-                    except ValueError:
-                        result[key] = value
                 else:
                     result[key] = value
 
