@@ -102,7 +102,7 @@ from rare_core.rare_orchestration_service import run_rare_pipeline
 result = run_rare_pipeline(
     input_path="examples/ANNUAL_REPORT_NVIDIA_2024.pdf",
     num_samples=5,
-    model="gpt5_nano",
+    model="gpt-6-luna",
     steps=[
         "parsing",
         "chunking",

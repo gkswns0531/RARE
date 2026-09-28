@@ -24,9 +24,10 @@
 
 ### 1.3 Default model and pricing table
 
-- Default LLM model: `DEFAULT_MODEL = "gpt5_nano"` (`RARE/rare_const.py`)
-- Step7 generation default: `DEFAULT_STEP7_GENERATION_MODEL = "gpt5"` (`RARE/rare_const.py`)
+- Default LLM model: `DEFAULT_MODEL = "gpt-6-luna"` (`RARE/rare_const.py`)
+- Step7 generation default: `DEFAULT_STEP7_GENERATION_MODEL = "gpt-6-sol"` (`RARE/rare_const.py`)
 - Embedding model: `EMBEDDING_MODEL = "text-embedding-3-large"` (`RARE/rare_const.py`)
+- 논문 실험 설정: `DEFAULT_MODEL = "gpt5_nano"`, `DEFAULT_STEP7_GENERATION_MODEL = "gpt5"`. GPT-5 계열이 2026-12-11 API에서 제거되어 기본값을 GPT-6로 바꿈
 
 OpenAI 모델명은 내부 shorthand를 실제 OpenAI 모델명으로 매핑함 (`RARE/rare_core/rare_llm_client_service.py`, `LLMClient._map_model_name()`).
 

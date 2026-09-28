@@ -853,7 +853,7 @@ class RareOrchestrator:
         model: str,
         max_workers: int = 128,
         enable_logical_filtering: bool = True,
-        logical_filtering_model: str = "gpt5_nano"
+        logical_filtering_model: str = "gpt-6-luna"
     ) -> Dict[str, List[AtomicInfo]]:
         """Step 4: Validate atomic information with optional logical consistency pre-filtering + 5 separate LLM calls with RRF ranking"""
         
@@ -1106,7 +1106,7 @@ class RareOrchestrator:
         atomic_info_map: Dict[str, List[AtomicInfo]],
         chunks: List[dict],
         language: str = "Korean",
-        model: str = "gpt-5",
+        model: str = "gpt-6-sol",
         max_workers: int = 64
     ) -> List[str]:
         """Generate GOLD standard ranking using high-quality model (GPT-5)"""
@@ -2374,10 +2374,10 @@ class RareOrchestrator:
         num_sample: int = 10,
         num_questions: int = 10,
         input_pool_size: int = 100,
-        generation_model: str = "gpt5",
-        filter_model: str = "gpt5_nano",
-        validation_model: str = "gpt5_nano",
-        answerability_model: str = "gpt5_nano",
+        generation_model: str = "gpt-6-sol",
+        filter_model: str = "gpt-6-luna",
+        validation_model: str = "gpt-6-luna",
+        answerability_model: str = "gpt-6-luna",
         language: str = "English",
         max_workers: int = 128,
         legacy_mode: bool = False,
@@ -3177,7 +3177,7 @@ class RareOrchestrator:
     def generate_multihop_questions(
         self,
         gold_sentences: List[Dict],
-        model: str = "gpt5_nano",
+        model: str = "gpt-6-luna",
         max_workers: int = 128,
         num_candidates: int = 1
     ) -> Dict[str, Any]:
@@ -3216,7 +3216,7 @@ class RareOrchestrator:
         question: str,
         answer: str,
         gold_sentences: List[Dict],
-        model: str = "gpt5_nano",
+        model: str = "gpt-6-luna",
         max_workers: int = 64
     ) -> Dict[str, Any]:
         """Validate multi-hop reasoning question using RARE framework"""
@@ -3239,7 +3239,7 @@ class RareOrchestrator:
     def generate_and_validate_multihop_question(
         self,
         gold_sentences: List[Dict],
-        model: str = "gpt5_nano",
+        model: str = "gpt-6-luna",
         max_workers: int = 64
     ) -> Tuple[Dict[str, Any], Dict[str, Any]]:
         """Generate and validate multi-hop question in one pipeline call"""
@@ -3288,7 +3288,7 @@ class RareOrchestrator:
         self,
         gold_sentences: List[Dict],
         questions: List[Dict],
-        model: str = "gpt5_nano",
+        model: str = "gpt-6-luna",
         max_workers: int = 64
     ) -> List[Dict]:
         """Validate multiple questions and return scores for each"""
@@ -3566,7 +3566,7 @@ class RareOrchestrator:
         self,
         gold_sentences: List[Dict],
         questions: List[Dict],
-        model: str = "gpt5_nano",
+        model: str = "gpt-6-luna",
         max_workers: int = 64
     ) -> List[Dict]:
         """Validate multiple questions using separate validation calls (4 calls total"""
@@ -3688,7 +3688,7 @@ class RareOrchestrator:
         self,
         gold_sentences: List[Dict],
         questions: List[Dict],
-        model: str = "gpt5_nano"
+        model: str = "gpt-6-luna"
     ) -> List[Dict]:
         """Filter questions based on logical consistency using 4 separate validation calls."""
         
@@ -3877,7 +3877,7 @@ class RareOrchestrator:
     def filter_atomic_info_logical_consistency(
         self,
         atomic_info_list: List[AtomicInfo],
-        model: str = "gpt5_nano",
+        model: str = "gpt-6-luna",
         max_workers: int = 128
     ) -> Dict[str, any]:
         """Filter atomic information based on information completeness using chunk-based batch processing."""
@@ -3963,7 +3963,7 @@ class RareOrchestrator:
         self,
         chunk_id: str,
         atomic_info_list: List[AtomicInfo],
-        model: str = "gpt5_nano"
+        model: str = "gpt-6-luna"
     ) -> List[Dict[str, bool]]:
         """Filter chunk's atomic information using information completeness check in batch."""
         
@@ -4028,7 +4028,7 @@ class RareOrchestrator:
         self,
         question_data: List[Dict[str, Any]],
         chunk_data_dict: Dict[str, Any] = None,
-        model: str = "gpt5_nano"
+        model: str = "gpt-6-luna"
     ) -> List[Dict[str, Any]]:
         """Paraphrase multiple questions to increase diversity while maintaining meaning."""
         
@@ -4085,7 +4085,7 @@ class RareOrchestrator:
         self,
         questions_with_chunks: List[Dict[str, Any]],
         chunk_data_dict: Dict[str, Any] = None,
-        model: str = "gpt5_nano"
+        model: str = "gpt-6-luna"
     ) -> List[Dict[str, Any]]:
         """Check if questions can be answered using their corresponding chunk content with titles."""
         

@@ -77,27 +77,38 @@ class PromptType(Enum):
 
 
 # =============================================================================
-# Model Pricing - GPT-4.1 & GPT-5 series (USD per 1K tokens)
+# Model Pricing - GPT-4.1, GPT-5, GPT-5.6 & GPT-6 series (USD per 1K tokens)
+# Standard short-context rates from developers.openai.com (checked 2026-09-28)
 # =============================================================================
 MODEL_PRICING = {
     # GPT-4.1 series (fine-tuning capable)
-    "gpt41": {"input": 0.003, "output": 0.012},
-    "gpt41_mini": {"input": 0.0008, "output": 0.0032},
-    "gpt41_nano": {"input": 0.0002, "output": 0.0008},
+    "gpt41": {"input": 0.002, "output": 0.008},
+    "gpt41_mini": {"input": 0.0004, "output": 0.0016},
+    "gpt41_nano": {"input": 0.0001, "output": 0.0004},
     
-    # GPT-5 series (latest inference models)
+    # GPT-5 series (removed from the API on 2026-12-11)
     "gpt5": {"input": 0.00125, "output": 0.01},
     "gpt5_mini": {"input": 0.00025, "output": 0.002},
     "gpt5_nano": {"input": 0.00005, "output": 0.0004},
+    
+    # GPT-5.6 series
+    "gpt-5.6-sol": {"input": 0.004, "output": 0.02},  # promotional rate, at least through 2026-11-21
+    "gpt-5.6-terra": {"input": 0.002, "output": 0.012},
+    "gpt-5.6-luna": {"input": 0.0002, "output": 0.0012},
+    
+    # GPT-6 series (latest inference models)
+    "gpt-6-astra": {"input": 0.01, "output": 0.05},
+    "gpt-6-sol": {"input": 0.002, "output": 0.01},
+    "gpt-6-luna": {"input": 0.0001, "output": 0.0005},
     
     # Compatibility
     "gpt-4o": {"input": 0.0025, "output": 0.01},
     "gpt-4o-mini": {"input": 0.00015, "output": 0.0006},
     
     # Direct mapping
-    "gpt-4.1": {"input": 0.003, "output": 0.012},
-    "gpt-4.1-mini": {"input": 0.0008, "output": 0.0032}, 
-    "gpt-4.1-nano": {"input": 0.0002, "output": 0.0008},
+    "gpt-4.1": {"input": 0.002, "output": 0.008},
+    "gpt-4.1-mini": {"input": 0.0004, "output": 0.0016}, 
+    "gpt-4.1-nano": {"input": 0.0001, "output": 0.0004},
     "gpt-5": {"input": 0.00125, "output": 0.01},
     "gpt-5-mini": {"input": 0.00025, "output": 0.002},
     "gpt-5-nano": {"input": 0.00005, "output": 0.0004},
@@ -113,7 +124,7 @@ MAX_LOOP_COUNT = 5000
 # =============================================================================
 # Model Settings - Using cheapest model for testing
 # =============================================================================
-DEFAULT_MODEL = "gpt5_nano"  # GPT-5 nano - cheapest model
+DEFAULT_MODEL = "gpt-6-luna"  # GPT-6 Luna - cheapest current model
 LANGUAGE = "English"
 
 # =============================================================================
@@ -166,10 +177,10 @@ DEFAULT_REDUNDANCY_MAX_WORKERS = 1024
 DEFAULT_REDUNDANCY_TOP_K_PER_CHUNK = 3
 
 # Step 7 defaults
-DEFAULT_STEP7_GENERATION_MODEL = "gpt5"
-DEFAULT_STEP7_FILTER_MODEL = "gpt5_nano"
-DEFAULT_STEP7_VALIDATION_MODEL = "gpt5_nano"
-DEFAULT_STEP7_ANSWERABILITY_MODEL = "gpt5_nano"
+DEFAULT_STEP7_GENERATION_MODEL = "gpt-6-sol"
+DEFAULT_STEP7_FILTER_MODEL = "gpt-6-luna"
+DEFAULT_STEP7_VALIDATION_MODEL = "gpt-6-luna"
+DEFAULT_STEP7_ANSWERABILITY_MODEL = "gpt-6-luna"
 DEFAULT_STEP7_NUM_INFORMATION = 2
 DEFAULT_STEP7_NUM_QUESTIONS = 10
 DEFAULT_STEP7_NUM_SAMPLES = 10
