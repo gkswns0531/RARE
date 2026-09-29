@@ -366,3 +366,7 @@ python run_complete_pipeline.py --steps redundancy_detection --top-k-per-chunk 1
 | Jina-v4 (3.75B) | 92.01 | 85.03 | 91.26 | 69.55 |
 | E5-Large (0.56B) | 91.67 | 84.01 | 90.76 | 69.33 |
 | E5-Mistral (7B) | 93.53 | 88.66 | 92.27 | 70.16 |
+
+## License
+
+MIT. See [LICENSE](LICENSE).
